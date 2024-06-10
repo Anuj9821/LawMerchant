@@ -1,10 +1,10 @@
 import spacy
 
 # Load the spaCy large model
-nlp = spacy.load('en_core_web_lg')
+nlp = spacy.load('en_core_web_sm')
 
 # Define the keywords related to the product
-keywords = ['fruit']
+keywords = ['tea','regulations','Flavoured']
 
 # Function to extract relevant sentences
 def extract_relevant_sentences(doc, keywords):
@@ -13,6 +13,23 @@ def extract_relevant_sentences(doc, keywords):
         if any(keyword.lower() in sentence.text.lower() for keyword in keywords):
             relevant_sentences.append(sentence.text)
     return relevant_sentences
+
+def extract_relevant_sentences1(doc, keywords):
+    relevant_sentences = []
+    for sentence in doc.sents:
+        if all(keyword.lower() in sentence.text.lower() for keyword in keywords):
+            relevant_sentences.append(sentence.text)
+    return relevant_sentences
+
+def extract_relevant_sentences2(doc, keywords):
+    relevant_sentences = []
+    for sentence in doc.sents:
+        keyword_count = sum(1 for keyword in keywords if keyword.lower() in sentence.text.lower())
+        if keyword_count >= 2:
+            relevant_sentences.append(sentence.text)
+    return relevant_sentences
+
+
 
 # Sample document text
 text = """
@@ -323,11 +340,51 @@ V.N. GAUR,
 Chief Executive Officer
 """
 
+
+text1 = """
+Regulation 2.2.1: No person in any State shall, with effect from such date as the state government concerned may by notification in the official gazette specify in this behalf, sell or offer or expose for sale, or have in his possession for the purpose of sale, under any description or for use as an ingredient in the preparation of any article of food intended for sale:—
+        Kesari gram (Lathyrus sativus) and its products.
+        Kesari dal (Lathyrus sativus) and its products.
+        Kesari dal flour (Lathyrus sativus) and its products.
+        A mixture of Kesari gram (Lathyrus sativus) and Bengal-gram (Cicer arietinum) or any other gram.
+        A mixture of Kesari dal (Lathyrus sativus) and Bengal-gram dal (Cicer arietinum) or any other dal.
+        A mixture of Kesari dal (Lathyrus sativus) flour and Bengal-gram (Cicer arietinum) flour or any other flour.
+
+Regulation 2.3: Prohibition and Restriction on sale of certain products
+
+    Regulation 2.3.1: Prohibition on sale of food articles coated with mineral oil: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, food articles which have been coated with mineral oil, except where the addition of mineral oil is permitted in accordance with the standards laid down in these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
+    Regulation 2.3.2: Restriction on sale of Carbia Callosa and Honey dew: Carbia Callosa and Honey dew shall be sold only in sealed containers bearing Agmark seal.
+    Regulation 2.3.3: Food resembling but not pure honey not to be marketed as honey: No person shall use the word ‘honey’ or any word, mark, illustration or device that suggests honey on the label or any package of, or in any advertisement for, any food that resembles honey but is not pure honey.
+    Regulation 2.3.4: Product not to contain any substance which may be injurious to health: Tobacco and nicotine shall not be used as ingredients in any food products.
+    Regulation 2.3.5: Prohibition of use of carbide gas in ripening of fruits: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, fruits which have been artificially ripened by use of acetylene gas, commonly known as carbide gas.
+    Regulation 2.3.6: Sale of Fresh Fruits and Vegetables: The Fresh Fruits and Vegetables shall be free from rotting and free from coating of waxes, mineral oil and colours.
+        Provided that fresh fruits may be coated with bees wax (white and yellow) or carnauba wax or shellac wax at level not exceeding Good Manufacturing Practices under proper label declaration as provided in Regulation 2.4.5 (44) of Food Safety and Standards (Packaging and Labelling) regulations, 2011.
+    Regulation 2.3.7: Sale or use for sale of admixtures of ghee or butter prohibited: No person shall sell or have in his possession for the purpose of sale or for use as an ingredient in the preparation of an article of food for sale a mixture of ghee or butter and any substance
+        prepared in imitation of or as a substitute for ghee or butter, or
+        consisting of or containing any oil or fat which does not conform to the definition of ghee;
+        Provided that where a mixture prohibited by this regulation is required for the preparation of an article of food, such mixture shall be made only at the time of the preparation of such article of food.
+    Regulation 2.3.8: Restriction on sale of ghee having less Reichert value than that specified for the area where such ghee is sold.
+        The ghee having less Reichert value and a different standard for Butyro-refractometer reading at 40°C than that specified for the area in which it is imported for sale or storage shall not be sold or stored in that area except under the ‘AGMARK’ seal:
+            Provided that such ghee may be (i) sold lose, after opening the ‘AGMARK’ sealed container, in quantities not exceeding two kilograms at a time, and (ii) used in the preparation of confectionery (including sweetmeats).
+        A person selling:—
+            ghee in such manner as specified in Regulation 2.3.8 (1) and
+            confectionery (including sweetmeats) in the preparation of which such ghee is used, shall give a declaration, in the Form A, to the Food Safety Officer when a sample thereof is taken by him for analysis under Section 47 of the Act and also to a purchaser desiring to have the sample analysed under Section 40 of the Act.
+            If on analysis such sample is found to be conforming to the standards of quality prescribed for the area where it is alleged to have been produced, the ghee shall not be deemed to be adulterated by reason only that it does not conform to the standards of quality prescribed for the area where it is sold.
+    Regulation 2.3.9: Restriction on sale of Til Oil produced in Tripura, Assam and West Bengal.
+        Til Oil (Sesame Oil) obtained from white sesame seeds, grown in Tripura, Assam and West Bengal having different standards than those specified for til oil shall be sold in sealed containers bearing Agmark label. Where this til oil is sold or offered for sale without bearing an Agmark label, the standard given for til oil shall apply.
+    Regulation 2.3.10: Restriction on sale of Kangra tea.
+        Kangra tea shall be sold or offered for sale only after it is graded and marked in accordance with the provisions of the Agricultural Produce (Grading and Marking) Act, 1937 (1 of 1937) and the regulations made there under.
+    Regulation 2.3.11: Condition for sale of flavoured tea: Flavoured tea shall be sold or offered for sale only by those manufacturers who are registered with Tea Board. Registration number shall be mentioned on the label. It shall be sold only in packed conditions with label declaration as provided in the Regulation 2.4.5 (23) of Food Safety and Standards (Packaging and Labelling) regulations, 2011.
+    Regulation 2.3.12: Restriction on sale of common salt – No person shall sell or offer or expose for sale or have in his premises for the purpose of sale, the common salt, for direct human consumption unless the same is iodized:
+        Provided that common salt may be sold or exposed for sale or stored for sale for iodization, iron fortification, animal use, preservation, manufacturing medicines, and industrial use, under proper label declarations, as specified in the Regulation 2.4.5 (21 & 42) of Food Safety and Standards (Packaging and Labelling) regulations, 2011.
+    Regulation 2.3.13: Use of flesh of naturally dead animals or fowls prohibited.
+        No person shall sell or use as an ingredient in the preparation of any article of food intended for sale, the flesh of any animal or fowl which has died on account of natural causes.
+"""
 # Process the document
-doc = nlp(text)
+doc = nlp(text1)
 
 # Extract relevant sentences
-relevant_sentences = extract_relevant_sentences(doc, keywords)
+relevant_sentences = extract_relevant_sentences2(doc, keywords)
 
 # Print the relevant sentences
 for sentence in relevant_sentences:
