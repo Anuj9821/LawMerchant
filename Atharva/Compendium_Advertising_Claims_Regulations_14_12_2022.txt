@@ -1,0 +1,38 @@
+### Regulation: Nutrient Content Claim Conditions:
+
+1. **Regulation: Energy or Calorie:**
+   - **Low:** Not more than 40 kcal per 100 g for solids, or 20 kcal per 100 ml for liquids.
+   - **Free:** Not more than 4 kcal per 100 ml for liquids.
+
+2. **Regulation: Fat:**
+   - **Low:** Not more than 3 g of fat per 100 g for solids, or 1.5 g of fat per 100 ml for liquids.
+   - **Free:** Not more than 0.5 g of fat per 100 g for solids or 100 ml for liquids.
+
+3. **Regulation: Cholesterol:**
+   - **Low:** Not more than 20 mg cholesterol per 100 g for solids and 1.5 g saturated fat per 100 g for solids, or 10 mg per 100 ml for liquids and 0.75 g of saturated fat per 100 ml for liquids, providing not more than 10% of energy from saturated fat.
+   - **Free:** Not more than 5 mg cholesterol per 100 g for solids, or 100 ml for liquids, additionally containing not more than 1.5 g saturated fat per 100 g for solids, or 0.75 g of saturated fat per 100 ml for liquids, providing not more than 10% of energy from saturated fat.
+
+4. **Regulation: Saturated Fat:**
+   - **Low:** Not more than 1.5 g per 100 g for solids, or 0.75 g per 100 ml for liquids, providing not more than 10% of energy from saturated fat.
+   - **Free:** Saturated fatty acids do not exceed 0.1 g per 100 g for solids or 100 ml for liquids.
+
+5. **Regulation: Unsaturated Fat:**
+   - **High:** At least 70% of fatty acids present in the product are derived from unsaturated fat, provided unsaturated fat provides more than 20% of the energy of the product.
+
+6. **Regulation: Trans Fat:**
+   - **Free:** Contains less than 0.2 g trans fat per 100 g for solids or 100 ml for liquids, or 1 g per 100 g or 100 ml of edible oils or fats for edible oils/fats.
+
+7. **Regulation: Monounsaturated Fatty Acids:**
+   - **High:** At least 45% of total fatty acids present in the product are derived from monounsaturated fat, provided monounsaturated fat provides more than 20% of the energy of the product.
+
+8. **Regulation: Polyunsaturated Fatty Acids:**
+   - **High:** At least 45% of total fatty acids present in the product are derived from polyunsaturated fat, provided polyunsaturated fat provides more than 20% of the energy of the product.
+
+9. **Regulation: Omega 3 Fatty Acids:**
+   - **Source:** Contains at least 0.3 g alpha-linolenic acid per 100 g or per 100 kcal, or at least 40 mg of the sum of eicosapentaenoic acid and docosahexaenoic acid per 100 g or per 100 kcal.
+   - **High:** Contains at least 0.6 g alpha-linolenic acid per 100 g or per 100 kcal, or at least 80 mg of the sum of eicosapentaenoic acid and docosahexaenoic acid per 100 g or per 100 kcal.
+
+10. **Regulation: Sugars:**
+    - **Low:** Contains not more than 5 g of sugars per 100 g for solids, or 2.5 g of sugars per 100 ml for liquids.
+    - **Free:** Contains not more than 0.5 g of sugars per 100 g for solids or 100 ml for liquids.
+
