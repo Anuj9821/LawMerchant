@@ -1,0 +1,88 @@
+Regulation of Food Safety and Standards (Approval for Non-Specified Food and Food Ingredients) : These regulations govern the approval process for manufacturing or importing non-specified food and food ingredients intended for human consumption.
+Act: Refers to the Food Safety and Standards Act, 2006 (34 of 2006).
+Approval: Permission to manufacture or import any article of food or food ingredient not specified under any other regulation made under the Act.
+Food Authority: Refers to the Food Safety and Standards Authority of India established under section 4 of the Act.
+Non-specified food: Any food other than proprietary food or food ingredients, including additives, processing aids, and enzymes for which standards have not been specified in any regulation made under the Act.
+Procedure for grant of prior approval:
+Manufacturer or importer to submit an application in FORM – I along with necessary documents and fee to the Food Authority.
+The Food Authority to scrutinize the application and inform the applicant of any deficiencies within forty-five days.
+The Food Authority may direct the applicant to submit additional supporting documents, data, or clarifications.
+The Food Business Operator to submit the required information within thirty days from the issuance of the letter, with the possibility of an extension at the discretion of the Food Authority.
+Appointment of expert committee or panel: The Food Authority may appoint an expert committee or panel to examine the application submitted by the Food Business Operator.
+Approval or rejection of application: The Food Authority may either grant approval or reject the application, as per FORM-II, based on the safety assessment of the article of food.
+Post market surveillance data: After the approval of the product by the Food Authority, the Food Business Operator shall conduct and provide post-market surveillance data on relevant safety and efficacy parameters within one year of placing the product in the market, whenever asked by the Authority.
+Appeal process:
+The Food Business Operator may file an appeal before the Chief Executive Officer of the Food Authority against any decision of rejection of the application within thirty days of the receipt of the rejection letter.
+The Chief Executive Officer shall dispose of such appeal within thirty days of its receipt, with any delay beyond this allowed with reasons to be recorded in writing.
+A Food Business Operator aggrieved by the decision of the Chief Executive Officer may file a review petition to be placed for consideration of the Chairperson of the Food Authority within thirty days from the date of the issue of the appellate order, with the review to be disposed of within thirty days of its receipt, with any delay beyond this allowed with reasons to be recorded in writing.
+Suspension or revocation of approval: The Food Authority may, for reasons to be recorded in writing, suspend or revoke any approval granted to any food business operator.
+Review of fee: The Food Authority may review the amount of fee for filing an application from time to time, and the fees paid by the applicant for the processing of the application shall not be refunded under any circumstances.
+Application for license: After the grant of approval, the Food Business Operator shall apply for a license as per the procedure specified in the Food Safety and Standards (Licensing and Registration of Food Businesses) Regulations, 2011.
+Reporting of complaints: The Food Safety Officer and Designated Officer shall immediately inform the Food Authority of any complaint received regarding the safety of any product approved by the Food Authority under these regulations.
+Suspension of manufacturing, sale, or distribution: If a Food Business Operator has reason to believe that the food for which approval has been granted poses any risk to health, they shall immediately suspend the manufacture, import, sale, or distribution of such article of food and take steps to recall the same under intimation to the Food Authority in accordance with the provisions of the Food Safety and Standards (Food Recall Procedure) Regulations, 2017.
+Application for approval of non-specified food and food ingredient: This form is used to apply for approval of non-specified food and food ingredients intended for human consumption.
+Novel food: Includes novel food products, novel food ingredients, or those processed using novel technology.
+Additive: Additives not listed in Food Safety and Standards Regulations (FSSR).
+New processing aid/enzyme: Processing aids or enzymes not listed in FSSR.
+Non-specified food: Specify if it is a new botanical, new fruit or fruit-based product, probiotic, prebiotic, or any other (specify).
+General information:
+Name of the applicant
+Name of the authorized person
+Mobile number / Phone number
+Email (All communications will only be made through the provided email and phone number)
+Name of the organization
+Address of the organization/registered office
+License number, if any
+Name, address, and contact details of the premises where the product covered in the application is manufactured or processed (if different from organization address)
+Nature of business
+Name of the product for which application is submitted
+Justification of the name
+Proposed product category
+Source of food ingredients (animal, chemical, botanical, or micro-biological)
+Genus and species of the organism in case of animal, botanical, or micro-biological source
+Functional benefits, including health benefits claimed for the product and 'end use declaration' for product/pre-mix/ingredient/additive imported or manufactured for supply to other Food Business Operators
+Certificate of analysis from a third-party laboratory accredited by National Accreditation Board for Testing and Calibration Laboratories / International Laboratory Accreditation Cooperation, including physical, chemical, and microbiological parameters relevant to the product along with validated test methods and other test methods, if any, with references wherever applicable
+Manufacturing process in brief (flow sheet with details)
+Regulatory status: Mention the countries where the product is permitted for direct or indirect human consumption as food, along with the level and purpose of consumption by the consumers and relevant regulations, along with documentary evidence.
+Copy of agreement: Provide a copy of the agreement of the relationship between the applicant and manufacturer, as well as other entities involved in the food business of the proposed product, such as marketer, importer, repacker.
+Safety Information:
+Provide information based on safety or risk assessment review from published studies (Indexed journals) and safety studies conducted on the ingredient or food product by the applicant adopting Organization for Economic Co-operation and Development guidelines or safety studies as prescribed under Schedule ‘Y’ of D and C Rules, 1945 as amended (Safety data to be summarized in Annexure A).
+Provide evidence to demonstrate that the proposed product or the ingredient will not adversely affect any specific population groups, including pregnant women, lactating mothers, children, elderly, or any other vulnerable group.
+Claim support documentation: Provide evidence to support the intended health benefit claims through robust scientific studies, including human intervention studies or human clinical studies. Provide supporting published literature (Indexed journals), results of in-vitro and in-vivo studies, and studies done on the population relevant to India (Health benefit data to be summarized in Annexure B) if applicable, as provided in Food Safety and Standards (Advertising and Claims) Regulations, 2018.
+Proposed product prototype label: Provide a copy of the proposed product prototype label as per relevant Food Safety and Standards Regulations.
+Declaration: Provide a declaration to conduct and provide post-marketing surveillance data in specific cases if indicated in the Form II, and a declaration to keep the information shared by the firm in Form I as confidential.
+Additional specific information:
+For novel food or novel food ingredients or food processed with the use of novel technology, provide information on the target group, detailed composition of the product, details of new technology, and safety information (Documents on risk assessment or toxicity studies to be attached).
+For new additives, provide the chemical name and International Numbering System No., purity, acceptable daily intake specified by Joint Food and Agriculture Organization / World Health Organization Expert Committee on Food Additives or any other risk assessment body, proposed level of use in food category, and in the case of coloring agent, provide (Colour Index) color number, where applicable.
+For new processing aids including enzymes, provide specification, enzyme activity, purity including total organic acid (as per the standards), and residual limit in the final product (in case of processing aid).
+
+/////table//////
+
+
+Summary of in-vitro data:
+Describe the material tested, purity, and provide information on standardization/marker compounds tested/activity tested for botanicals or biological material.
+Provide information on bacteria, yeast, or any other microbes against which testing was done, including their National Type Culture Collection Centre/Account Number/details of cell lines/details of organ culture or tissue culture or any other system.
+Provide information on concentrations tested, negative and positive controls used in the experiments.
+Describe what aspects were measured as the outcome of the test, such as IC50, cytotoxicity, dye uptake, or reduction in dye uptake, preventing rate of growth.
+Give a brief summary of the results obtained, comparison with controls, and any dose-response relations reported.
+Provide complete reference of the publication. If the data is not published in peer-reviewed journals, but forms a study report, give details of the report covering where the study was undertaken, name of the institute or laboratory and its accreditation status, and provide an authenticated copy of the same. Provide a full-length paper copy of the most important study only and give a commitment to provide a copy of other publications listed in the table when requested.
+Safety studies justification:
+Provide justification on the use of the test material for normal human consumption.
+Test compound profile and exposure level:
+Describe the material tested for purity, in the case of botanicals/biological material/food/food additives, and color additives along with their standardization/marker compounds tested.
+Rationale for selecting the exposure level for experimental evaluation should be based on the intended/day/duration in human. The test exposure level should be calculated by the standard body surface area method in laboratory animal selected.
+Provide rationale for selecting the species.
+Describe the rationale for selected tests listed.
+Acute toxicity:
+Determine toxic manifestations of the test substances preferably in two animals (mice, rats/rabbits) exposed to the test compound within a 24-hour period.
+The study must provide the safety of a test compound at an exposure limit of 2 g/kg or at least 10 times of the intended human exposure level and route.
+The data should provide the observations on body weight gain, toxic signs and the severity, onset, progression, and reversibility of the signs and mortality, if any, for 14 days after exposure of test compound.
+In case of mortality, the necropsy findings along with a histopathological report should be enclosed.
+Long-term toxicity:
+Determine toxic manifestations of the test substance in two animals (mice and rats/rabbits) exposed to the test material repeatedly as per the intended human use.
+The study is required to be done with three exposure levels viz., Intended Human Exposure level (Therapeutic Dose (TD)), Average (2.5/5 X TD), High (5/10 X TD), In addition, a vehicle control group should be included.
+Dose level spacing should be designed to demonstrate a dose response and establish a no-observed-adverse-effect-level (NOAEL) or other intended outcome of the study.
+The data should provide the observations on Physical, physiological, food intake, body weight gain, clinical-chemistry, and hematology along with gross necropsy and histopathology of major and targeted organs. In case of mortality, the animals may be subjected to gross necropsy and histopathology, and a report may be enclosed.
+In case the test material has a potential allergenicity/mutagenicity, the reports on special investigation have to be enclosed.
+
+/////table//////

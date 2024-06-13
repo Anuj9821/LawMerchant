@@ -1,0 +1,233 @@
+**GUIDELINES FOR FOOD RECALL**
+
+### Introduction
+
+Food intended for human consumption must be wholesome, unadulterated, uncontaminated, properly labeled, and fit for consumption. Violations of these standards can lead to regulatory action against the Food Business Operator (FBO) under the Food Safety and Standards Act (the Act), rules, and regulations made thereunder.
+
+### Food Recall
+
+Food recalls are a method for removing or correcting marketed food products and their labeling that violate laws administered by the regulatory authority. A recall can be defined as an action to remove food products from the market at any stage of the food chain, including those possessed by consumers, which may pose a threat to public health or violate the Act, or the rules or regulations made thereunder. Recalls protect consumers and are generally more efficient and timely than formal administrative or civil actions, especially when the product has been widely distributed.
+
+Manufacturers and/or distributors should initiate a recall to protect public health from products that present a risk of injury, gross deception, or are otherwise defective. Firms may also initiate a recall following notification of a problem by the Food Authority or a state agency, in response to a formal request by the authority, or as ordered by the authority.
+
+### Purpose of this Guideline
+
+The purpose of this guide is to provide an overview of how to develop a recall plan and how to implement that plan in the event of a recall. It assists in identifying unsafe products that violate the Act, or the rules or regulations made thereunder, and enables the recall of these products from the marketplace.
+
+### Role of the Food Authority
+
+The Food Authority's main role in a recall is to monitor the progress of the recall and assess the adequacy of the actions taken by the FBO. After a recall is completed, the Food Authority ensures that the product is destroyed or suitably improved. If the recall is related to serious defects in the manufacturing process, the concerned authority may review the license of the FBO.
+
+The Food Authority will publicize the recall when it believes the public needs to be alerted about a health hazard or to clarify the situation to alleviate public worries. In cases of public health emergencies, the Food Authority may alert the public before a decision on the recall has been reached, based on the available evidence.
+
+### Role of the Industry
+
+Food Business Operators (FBOs) have the primary responsibility for implementing the recall and ensuring compliance with the recall procedure at its various stages, including follow-up checks to ensure the recall's success and the safety of subsequent batches of the food products.
+
+If an FBO considers or has reason to believe that a food product it has processed, manufactured, distributed, or imported is not in compliance with food safety requirements, it must immediately initiate procedures to recall the food in question from the market and inform the competent authorities. If the product has reached consumers, the FBO must inform them of the reason for the recall and, if necessary, recall the product from consumers.
+
+An FBO must immediately inform the competent authorities if it considers or has reason to believe that a food product it has placed on the market may be unsafe for consumers. The FBO must inform the authorities of the actions taken to prevent risks to the final consumer and must not prevent or discourage any person from cooperating with national law and concerned authorities to prevent, reduce, or eliminate a risk arising from food.
+
+FBOs must collaborate with the concerned authorities on actions taken to avoid or reduce risks posed by a food product they supply or have supplied.
+
+**Food Recall Plan**
+
+All food business operators as prescribed in Regulation 7 of Food Safety and Standards (Food Recall Procedure) Regulations, 2017, must have an up-to-date recall plan as provided in Annex (Model Recall Plan)- I. At the time of a recall, the FBO shall submit their detailed recall plan to the CEO, FSSAI. A brief step-by-step procedure and its description are as follows.
+
+### Steps for Conducting a Recall Plan
+
+**Step 1: Assemble the Recall Management Team**
+- Initiate the formation of a recall management team.
+- Assign recall duties to each person.
+- Ensure all team members are informed of the recall and know their responsibilities.
+
+The team should include people responsible for:
+1. Decision making
+2. Quality assurance/technical advisory
+3. Media communication
+4. Complaint investigation
+5. Contacting accounts
+6. Food Authority contact
+7. Legal counsel
+
+The management team document should contain:
+- Names and alternate persons
+- Business and after-hours phone numbers
+- Responsibilities during the recall
+
+**Step 2: Inform the Authority**
+- Notify the concerned regulatory authority as soon as an incident is identified that may lead to a recall.
+- Update the authority throughout the recall process.
+
+Information to provide:
+- Detailed description of the nature of the problem
+- Name, brand, size, lot code(s) affected
+- Details of complaints received and any reported illnesses
+- Distribution of the product (local or national)
+- Specific dates of product distribution
+- Labels of the products to be recalled
+- Total quantity of product manufactured and distributed
+- Contact details of the firm’s representative with the authority
+- After-hours contact information for the firm
+
+**Step 3: Identify All Products to be Recalled**
+- Ensure all products needing recall are identified.
+- Determine if other codes, brands, sizes of the same product are affected.
+- Determine if any other products are affected.
+
+**Step 4: Detain and Segregate Products to be Recalled**
+- Ensure all products to be recalled that are under your firm's control are not distributed.
+- Determine locations of the recalled products (on-site, at the plant, off-site storage).
+- Identify and segregate products to prevent distribution.
+
+**Step 5: Prepare and Distribute the Information of Recall**
+- Inform consumers about the recall at the earliest possible moment.
+- Use press releases, letters, or paid advertisements to disseminate information.
+- Ensure sufficient telephone hotline service to handle inquiries.
+
+Information within the food chain:
+- Inform everyone in the food chain, from raw material vendors to suppliers and relevant retailers or trade associations.
+- Communicate via written communication, phone, email, fax, or a combination thereof.
+
+The press release, letter, or advertisement should be in the form of a ‘Food Recall Notice’ and contain:
+- Name of the FBO recalling the food
+- Name of the food, brand name, pack size, batch and code number, date of manufacture, use by date, or best before date
+- Contamination or violation in the food or reason for the recall
+- "Do not consume" message
+- Health warning and action
+- Places or outlets where the food is found
+- Actions to be taken by the consumer
+- Contact number for queries
+
+The FBO must:
+- Complete the press release within two hours after being notified of the recall
+- Submit a draft of the proposed press release, if required, to the concerned authority for approval
+- Arrange for the translation of the press release for the concerned region
+
+**Step 6: Prepare the Distribution List**
+- Maintain accurate distribution records to limit the recall to specific accounts that received the recalled product.
+- Produce a product and lot code-specific distribution list identifying:
+  - Accounts that received the recalled product
+  - Account names, addresses, contact names, and telephone numbers
+  - Type of account (e.g., manufacturer, distributor, retailer)
+
+**Step 7: Verify the Effectiveness of the Recall**
+- Ensure the recall is progressing effectively and submit periodic status reports to the concerned authority.
+- Submit periodic recall status reports once a week or as specified by the authority.
+- Maintain food distribution records, including suppliers and distributors' names and addresses, date of purchase of raw material, batch code, lot number, and complete traceability from raw material to finished goods.
+
+The FBO must:
+- Verify all accounts have stopped distributing and selling the recalled products.
+- Verify the recalled products have been returned.
+
+**Step 8: Control the Recalled Products**
+- Recover the products to a central site or major recovery sites.
+- Store the recovered products in a separate area from other food products.
+- Keep accurate records of the amount of recovered product and the batch codes.
+
+The FBO must ensure that recalled products do not re-enter the market by:
+- Separating and clearly identifying recalled products
+- Reconciling quantities and monitoring returned products
+- Recording the recalled products in the Recalled Product Records document
+
+**Step 9: Decide What to Do with the Returned Products**
+- Determine if the products can be corrected or reprocessed before release to the market if fit for human consumption, otherwise, they must be destroyed.
+- Obtain approval from the competent authority for actions taken on recalled products.
+
+The FBO must:
+- Decide on the action for the recalled products (e.g., correction, re-export, destruction)
+- Verify if the authority wants to witness/verify the action taken
+- Ensure the action has been effective
+- Record the action taken for each product in the Recalled Product Records document
+
+**Step 10: Fix the Cause of the Recall**
+- Implement controls or revise existing controls to prevent similar problems in the future.
+- Take all reasonable steps to prevent similar recalls.
+
+**(Insert FBO Name) Recall Plan**
+
+In the event that any of our products present a threat to public health or violate the Act and Rules and Regulations, __(Insert name of FBO)__ will protect public health by efficiently and rapidly identifying and removing unsafe food from the distribution chain and informing consumers of the presence of such food in the market. 
+
+We have a documented recall procedure in place that will be periodically tested to ensure it is comprehensive and effective in removing unsafe food from consumers and/or the distribution chain.
+
+### Recall Procedure
+
+**Introduction**
+
+This procedure outlines the actions that __(Insert name of FBO)__ will take to effectively manage a food recall if the food does not meet hygiene, safety, or quality requirements, thereby protecting consumer health. An effective product recall ensures that unsafe or non-compliant food is contained and either destroyed or rendered safe.
+
+We will refer to and follow instructions laid out in the following documents:
+- Food Safety and Standards (Food Recall Procedures) Regulation, 2017
+- FSSAI Website (www.fssai.gov.in)
+- Guidelines for Food Recall Plan
+
+**Roles and Responsibilities**
+
+It is __(Insert name of FBO)__'s responsibility to effectively organize and manage the recall of food that presents a threat to public health or violates regulations. We will formulate a broad-level recall plan as per FSSAI guidelines.
+
+The recall coordinator for the site is __(insert name)__, who has been authorized by management to make recall decisions on behalf of __(Insert name of FBO)__. When a recall is initiated, our actions need to be coordinated with ___(insert the name of concerned Authority)____.
+
+We shall notify ___(insert the name of concerned Authority)____ as soon as a recall is likely to be initiated. It is our responsibility to manage the recall by clarifying the food safety issue, assessing exposure, providing distribution details, and managing the recall process.
+
+### Recall Management Team
+
+The recall coordinator __(insert name)__ will initiate the formation of a recall management team and will coordinate actions with ___(insert the name of Concerned Authority)____ and our marketing and distribution agents. Committee members will include personnel from across our __(Insert name of FBO)__. 
+
+**RECALL MANAGEMENT TEAM**
+
+| NAME | ALTERNATE PERSON | BUSINESS PHONE | AFTER HOURS PHONE | RESPONSIBILITIES DURING RECALL |
+|------|-------------------|----------------|-------------------|------------------------------|
+
+The recall management team is responsible for managing all recall activities and adhering to this procedure. Duties of the recall management team include:
+- Assessing the overall problem
+- Notifying the relevant regulatory authority
+- Evaluating the hazard in the food and the extent of contamination
+- Determining a recall strategy
+- Making decisions about product still in manufacture or storage
+- Notifying insurers
+
+### Recall Actions & Documentation
+
+The recall management team will follow the actions outlined in the Food Safety and Standards (Food Recall Procedures) Regulation, 2017. We will ensure that records of all actions and decisions, including who was responsible, are recorded and retained.
+
+**Decision to Recall**
+
+The decision to recall will be submitted to ___(insert the name of Concerned Authority)____.
+
+**Notification of a Product Recall**
+
+If a recall is initiated, we will notify:
+- Senior management of __ (Insert name of FBO) __, supply chain personnel
+- Food Authority
+- Anyone that has received our product, including distributors, wholesalers, retailers, and caterers
+- Consumers, via the media contacts included on our contact list
+
+The contact list must include contact details for:
+- The product recall committee and key company personnel
+- Suppliers of all ingredients
+- Downstream Food Business Operators and business customers
+- Sources of technical advice and support, including laboratory facilities
+- Regulatory Authorities
+
+**Regaining Control of Affected Stock**
+
+Recovered products will be stored separately from other food products. Accurate records will be kept of the amounts recovered and the product codes. If the recovered product is unfit for human consumption, it may be destroyed or denatured under company and/or regulatory supervision. If the food safety risk can be safely removed, the product may be relabeled or reprocessed.
+
+### Recall Status Report
+
+Periodic status reports will be submitted to the CEO, FSSAI after the notification of the recall to assess progress. The frequency of these reports will be determined by the urgency of the recall and specified by the concerned food authority. Reporting intervals shall not exceed one week.
+
+**Post Recall Report**
+
+The recall management team will submit a post-recall report to the CEO, FSSAI after the recall's completion to assess its effectiveness. __(Insert name of FBO)__ will also investigate the reasons leading to the recall and take actions to prevent recurrence.
+
+**Termination of a Recall**
+
+__(Insert name of FBO)__ may request recall termination by submitting a written request to the CEO, FSSAI along with the latest recall status report. The recall will be terminated when the concerned food authority determines that all reasonable efforts have been made and the recalled food has been removed or corrected. Written notification of recall termination will be issued by the food authority.
+
+In case of unsatisfactory reports, the concerned food authority may consider further action against __(Insert name of FBO)__.
+
+**Follow-up Action**
+
+__(Insert name of FBO)__ will submit an interim report to regulatory authorities within an agreed timeframe, not later than thirty days after recall completion. The final report will include elements outlined in the FSS (Food Recall Procedure) Regulations, 2017.
+

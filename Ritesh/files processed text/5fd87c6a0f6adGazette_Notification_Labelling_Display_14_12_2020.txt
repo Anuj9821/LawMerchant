@@ -1,0 +1,174 @@
+Food Safety and Standards Authority of India (FSSAI) Notification: Labelling and Display Regulations, 2020
+Key Points:
+Title and Commencement:
+
+Officially known as the Food Safety and Standards (Labelling and Display) Regulations, 2020.
+Enforces labelling requirements for pre-packaged foods and mandates the display of essential information at premises where food is handled.
+Effective from the date of publication in the Official Gazette with a compliance deadline of one year from publication, except for Chapter 3, which is due by 1st January 2022.
+Definitions:
+
+Assorted Pack: A package containing different food products intended for retail.
+Best Before Date: The date until which the food is marketable under specific conditions.
+Children: Defined as individuals under 18 years as per the Juvenile Justice Act, 2015.
+Date of Manufacture: The date the food product is created.
+E-commerce: Buying and selling of goods/services over digital networks.
+Front of Pack: The package part facing forward, usually the first thing consumers see.
+Labelling: Any written, printed, or graphic matter on the label or near the food.
+Vegetarian and Non-Vegetarian Food: Defined based on ingredients and origin.
+Pre-packaged Food: Food placed in a package that is ready for sale to consumers.
+General Labelling Requirements:
+
+Labels must include mandatory information unless otherwise specified.
+E-commerce platforms must provide mandatory label information to consumers before sale, excluding batch number, best before, expiry date, and date of manufacturing/packaging.
+Labels should not mislead or deceive consumers.
+Information on the label should be clear, prominent, and in English or Hindi. Other languages can be used, provided they do not contradict the information in English or Hindi.
+Labels must be affixed to the container in a way that they do not separate easily.
+Specific Labelling Requirements:
+
+Name of Food: The package must display the food's name, indicating its true nature, prominently on the front. It may include brand or trade names.
+List of Ingredients: Except for single-ingredient foods, all ingredients must be listed in descending order of weight or volume at the time of manufacture.
+Compound Ingredients: Must be declared in the list of ingredients, along with their constituent parts if they make up more than 5% of the food.
+Added Water: Must be declared unless it forms part of another ingredient or evaporates during manufacture.
+Additional Labelling Elements:
+
+Labels may include any non-conflicting pictorial devices or information.
+Outside containers or wrappers for retail must also include required declarations unless they are transparent and the inner label is readable.
+These regulations are designed to ensure consumers are well-informed about the food products they purchase, promoting transparency and safety in food labelling and packaging.
+
+11. Labelling of Imported Foods
+Must comply with the Food Safety and Standards (Import) Regulations, 2017.
+12. Country of Origin for Imported Foods
+Declare the country of origin on the label.
+If processed in another country resulting in a change of HS Code at the 6-digit level, that country is considered the origin.
+13. Instructions for Use
+Include reconstitution and usage instructions for proper utilization and health/safety (e.g., "Refrigerate after opening").
+14. Declaration Regarding Food Allergens
+Declare known allergens separately (e.g., "Contains [allergen]").
+Allergens to Declare:
+Cereals containing gluten (wheat, rye, barley, oats, etc.)
+Crustaceans and their products
+Milk and milk products
+Eggs and egg products
+Fish and fish products
+Peanuts and tree nuts
+Soybeans and their products
+Sulphites (10mg/kg or more)
+Cross-contamination may be declared as "May contain [allergen]".
+Oils derived from these ingredients are exempt.
+Raw agricultural commodities are exempt.
+15. Non-Human Consumption Declaration
+Non-food items (e.g., Pooja water) must have a specific symbol: a black cross inside a square.
+16. Principal Display Panel
+All required information must be on the principal display panel.
+Group information together.
+Area Requirements:
+Rectangular package: 40% of height x width.
+Cylindrical/round/oval package: 40% of height x average circumference.
+Other shapes: 20% of total surface area.
+Packages ≤10 cm³: use a card or tape affixed to the package.
+Font Size Requirements:
+Based on the area of the display panel (refer to Table I).
+17. Mandatory Declarations
+Specific ingredients/additives (schedule II) must be displayed prominently.
+Font size for these declarations: minimum 3mm.
+18. Exemptions from Certain Labelling Requirements
+Small Packages (≤100 cm²):
+Exempt from listing ingredients, lot/batch number, nutritional information, irradiated food, food additives, license number, and importer address.
+Reusable Liquid Bottles:
+Exempt from listing ingredients; must include nutritional information.
+Short Shelf-Life Foods (≤7 days):
+Only expiry/use by date required.
+Prepared Foods for Immediate Consumption:
+Minimum information at the point of sale (specific declarations, allergen information, veg/non-veg logo).
+Vending Machine Foods:
+Display information as per regulation 5(3) on the machine or via a poster/leaflet.
+Barcode/GTIN Provided Information:
+Address of the brand owner and license number can be provided via barcode.
+Assorted Packs:
+Shelf life must reflect the product with the earliest expiration date.
+Chapter 3: Display of Information in Food Service Establishments
+9. Display of Information
+Calorific Value:
+
+Food Service Establishments with a Central license or outlets at 10+ locations must display the calorific value (kcal per serving and serving size) on menu cards, boards, or booklets.
+Must include reference information: “An average active adult requires 2,000 kcal energy per day, however, calorie needs may vary”.
+Allergen Information:
+
+Mention food allergens as per sub-regulation 5 (14). Symbols may be used for easy understanding.
+Include veg or non-veg logo.
+Exemptions:
+
+Event caterers and establishments operating for less than 60 days in a year.
+Free self-serve condiments not listed on the menu.
+Special-order items or modified meals as per customer’s request.
+Nutritional Information:
+
+Provide nutritional information as per sub-regulation 5(3), specific requirements from schedule-II, and information on organic food if claimed. This can be in booklets, handouts, or on the website.
+A 25% deviation in nutritional information is tolerated.
+E-commerce Food Business Operators:
+
+Must display the above information on their website as provided by the respective Food Business Operators.
+Health Messages:
+
+Nutritional information and/or ingredients information along with health messages must be displayed where food is served as required by the Food Authority.
+Additional Establishments:
+
+The Food Authority may specify other food service establishments to comply with these requirements as needed.
+Chapter 4: Labelling Requirements of Non-Retail Containers
+10. Mandatory Information for Non-Retail Containers
+Label Information:
+
+Name of the food
+Net Quantity
+FSSAI Logo and License number
+Date marking
+Lot No.
+Name and address of the manufacturer or packer (including country of origin for imported packages)
+Accompanying Documents:
+
+If not on the label, the following information must be in accompanying documents:
+List of ingredients
+Declaration regarding Veg or Non-Veg
+Nutritional information
+Barcode/GTIN Exemptions:
+
+If provided in a Barcode/Global Trade Identification Number (GTIN):
+Address of the brand owner, whether the manufacturer, marketer, packer, or bottler.
+License number of the manufacturer, marketer, packer, or bottler, if different from the brand owner.
+These regulations ensure comprehensive information is available to consumers and regulatory bodies, maintaining transparency and safety in food service and packaging.
+
+CHAPTER 5
+LABELLING OF FOOD ADDITIVES WHEN SOLD AS SUCH
+11. Labelling of packaged Food Additives for Retail Sale
+(1) Every package of a food additive meant for retail sale to the consumer shall be labelled in accordance with the 
+Food Safety and Standards (Labelling and Display) Regulations, 2020 except for sub-regulation 5(1) and 5(3) of 
+this regulation.
+(2) Additionally the label of every package of food additive shall provide the following information under these 
+regulations: 
+(a) Name of Food Additive.- The specific name as mentioned in Food Safety and Standards (Food Products 
+Standards and Food Additives) Regulations, 2011 and amendments thereof shall be used. 
+Provided that:
+(i) Where such a name is not listed in the aforementioned clause the name established in international 
+regulations shall be used or
+(ii) In other cases the common or commercial name shall be used
+(iii) In the case of synthetic food colours the chemical name and the colour index of the dye stuff.
+(iv) If two or more food additives are present in the package, their names shall be listed in the descending 
+order of their composition by weight or volume. Where one or more of the food additives is subject to 
+a quantitative limitation in a food covered by Food Safety and Standards (Food Products Standards 
+and Food Additives) Regulations 2011, and amendments thereof, the quantity or proportion of that 
+additive shall be stated. If food ingredients are part of the preparation, they shall be declared in the list 
+of ingredients in descending order of proportion by weight.
+(b) Other Mandatory Declarations:
+(i) Every package of a food additive sold in retail or non-retail sale shall be marked prominently with the 
+words “FOR USE IN FOOD”.
+(ii) In the case of mixtures of flavourings, the name of each flavouring present in the mixture need not be 
+given but a common or generic expression “flavour” or “flavouring” may be used, together with a true 
+indication of the nature of the flavour. 
+The expression “flavour” or “flavouring” shall be qualified by the words “natural”, nature-identical”, 
+“artificial”, or a combination of these words, as appropriate. Provided that this qualifier does not apply to 
+flavour modifiers.
+12. Labelling of Pre-packaged Food Additives Sold other than by Retail 
+Every package of a food additive meant for sale other than in Retail shall carry label in accordance to chapter 
+4 and regulation 10 of these regulations except the clause 10(2) (c). 
+13. The provision of these regulations shall supersede, if repugnant to labelling requirement prescribed in any 
+regulations made under the Food Safety and Standards Act, 2006 (34 of 2006)
