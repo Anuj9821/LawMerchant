@@ -1,0 +1,5 @@
+﻿SI. No.,Area of principal display panel in cm. square,Minimum size of diameters of circle in mm,Minimum size of each side of triangle in mm,Minimum size of each side of square in mm
+1,Upto 100,3,2.5,6
+2,Above 100 to 500,4,3.5,8
+3,Above 500 to 2500,6,5,12
+4,Above 2500,8,7,16

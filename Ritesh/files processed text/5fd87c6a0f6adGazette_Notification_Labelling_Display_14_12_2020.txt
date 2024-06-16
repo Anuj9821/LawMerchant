@@ -172,3 +172,14 @@ Every package of a food additive meant for sale other than in Retail shall carry
 4 and regulation 10 of these regulations except the clause 10(2) (c). 
 13. The provision of these regulations shall supersede, if repugnant to labelling requirement prescribed in any 
 regulations made under the Food Safety and Standards Act, 2006 (34 of 2006)
+
+_tableStart_
+
+SI. No.,Area of principal display panel in cm. square,Minimum size of diameters of circle in mm,Minimum size of each side of triangle in mm,Minimum size of each side of square in mm
+1,Upto 100,3,2.5,6
+2,Above 100 to 500,4,3.5,8
+3,Above 500 to 2500,6,5,12
+4,Above 2500,8,7,16
+
+
+_tableEnd_
