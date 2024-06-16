@@ -2,63 +2,63 @@ Sure, I'll include the word "regulation" in front of the rules. Here's the updat
 
 ---
 
-**(FOOD SAFETY AND STANDARDS AUTHORITY OF INDIA)**  
-**NOTIFICATION**  
-**NEW DELHI, the 19TH MARCH, 2018**  
-**F. No. 2/SA-24/2009(1)/FSSAI.**
+(FOOD SAFETY AND STANDARDS AUTHORITY OF INDIA)  
+NOTIFICATION 
+NEW DELHI, the 19TH MARCH, 2018
+F. No. 2/SA-24/2009(1)/FSSAI.
 
 Whereas the draft of the Food Safety and Standards (Alcoholic Beverages Standards) Regulations, 2016, was published as required under sub-section(1) of section 92 of the Food Safety and Standards Act, 2006 (34 of 2006), vide notification of the Food Safety and Standards Authority of India F. No. 2/SA24/2009(1)/FSSAI, dated the 5th September, 2016, in the Gazette of India, Extraordinary, Part III, Section 4, inviting objections and suggestions from the persons likely to be affected thereby, before the expiry of a period of thirty days from the date on which the copies of the Gazette containing the said notification were made available to the public; And whereas copies of the said Gazette were made available to the public on the 9thSeptember, 2016; 
 And whereas objections and suggestions received on the said draft regulations have been considered by the Food Safety and Standards Authority of India; 
 Now, therefore, in exercise of the powers conferred by clause (v) of sub-section (2) of section 92 of the said act, the Food Safety and Standards Authority of India hereby makes the following regulations, namely:- 
 
-**PART- 1 Preliminary**
+PART- 1 Preliminary
 
-**Regulation 1.1 Short title, application and commencement:**  
+Regulation 1.1 Short title, application and commencement:
 (1) These regulations may be called the Food Safety and Standards (Alcoholic Beverages) Regulations, 2018.  
 (2) The standards specified in these regulations shall apply to distilled and un-distilled alcoholic beverages.  
 (3) They shall come into force on the date of their publication in the Official Gazette and Food Business Operator shall comply with all the provisions of these regulations by 1st April, 2019.  
 
-**Regulation 1.2 Definitions:**  
+Regulation 1.2 Definitions:  
 In these regulations, unless the context otherwise requires:  
 
-**Regulation 1.2.1:** “Act” means Food Safety and Standards Act, 2006(34 of 2006);  
-**Regulation 1.2.2:** “alcohol by volume (abv)” means ethyl alcohol (ethanol) content in an alcoholic beverage expressed as per cent. of total volume;  
-**Regulation 1.2.3:** “alcoholic beverage” means a beverage or a liquor or a brew containing more than 0.5 per cent. abv. The ethanol used in the production of alcoholic beverage shall be of agricultural origin;  
-**Regulation 1.2.4:** “alcohol proof” means 1.75131 times the ethanol content in an alcoholic beverage by volume;  
-**Regulation 1.2.5:** “distilled alcoholic beverage” means a distilled beverage, spirit, or liquor containing ethanol that is made by distilling ethanol produced by fermentation of cereal grains, fruits, vegetables, molasses or any other source of carbohydrates of agricultural origin;  
-**Regulation 1.2.6:** “ethyl alcohol or ethanol” means a transparent, colourless, flammable, volatile liquid miscible with water, ether or chloroform and obtained by the fermentation of carbohydrates with yeast. Ethyl alcohol has the chemical formula C2H5OH, has a burning taste, and causes intoxication on consumption;  
-**Regulation 1.2.7:** “hops” means the female flowers or seed cones or strobiles of the hop plant (Humuluslupulus), or its products used to impart a bitter taste or flavour to beer;  
-**Regulation 1.2.8:** “methyl alcohol or methanol” means a clear, colourless, flammable liquid having chemical formula, CH3OH, consumption of which above the specified limits may cause blindness or death;  
-**Regulation 1.2.9:** “neutral spirit or neutral alcohol or neutral grain spirit or pure grain alcohol or extra neutral alcohol (ENA)” means a product obtained by distillation and rectification, with a minimum alcoholic strength of 96 per cent. abv, after alcoholic fermentation of cereal grains, fruits, vegetables, molasses or any other source of carbohydrates of agricultural origin;  
-**Regulation 1.2.10:** “pot-still or column distilled spirit” means the product of distillation done either in a pot-still in batches, or in continuous columns;  
-**Regulation 1.2.11:** “psychotropic substance” means substance as defined in the Schedule of the Narcotic Drugs and Psychotropic Substances Act, 1985 (61 of 1985) and rules made thereunder, and substances listed in Schedule E and E1 of the Drugs and Cosmetic Rules, 1945;  
-**Regulation 1.2.12:** “rectified spirit” means spirit purified by distillation to achieve strength of not less than 95 per cent.abv;  
-**Regulation 1.2.13:** “standard” means as defined in the Act;  
-**Regulation 1.2.14:** “table” means the tables appended to these regulations;  
-**Regulation 1.2.15:** “un-distilled alcoholic beverage or fermented beverage” means fermented un-distilled alcoholic beverage such as beer, wine, cider, or any other similar products;  
-**Regulation 1.2.16:** “yeast” means a unicellular micro-organism responsible for fermentation of sugars to produce ethanol and carbon dioxide.  
+Regulation 1.2.1: “Act” means Food Safety and Standards Act, 2006(34 of 2006);  
+Regulation 1.2.2: “alcohol by volume (abv)” means ethyl alcohol (ethanol) content in an alcoholic beverage expressed as per cent. of total volume;  
+Regulation 1.2.3: “alcoholic beverage” means a beverage or a liquor or a brew containing more than 0.5 per cent. abv. The ethanol used in the production of alcoholic beverage shall be of agricultural origin;  
+Regulation 1.2.4: “alcohol proof” means 1.75131 times the ethanol content in an alcoholic beverage by volume;  
+Regulation 1.2.5: “distilled alcoholic beverage” means a distilled beverage, spirit, or liquor containing ethanol that is made by distilling ethanol produced by fermentation of cereal grains, fruits, vegetables, molasses or any other source of carbohydrates of agricultural origin;  
+Regulation 1.2.6: “ethyl alcohol or ethanol” means a transparent, colourless, flammable, volatile liquid miscible with water, ether or chloroform and obtained by the fermentation of carbohydrates with yeast. Ethyl alcohol has the chemical formula C2H5OH, has a burning taste, and causes intoxication on consumption;  
+Regulation 1.2.7: “hops” means the female flowers or seed cones or strobiles of the hop plant (Humuluslupulus), or its products used to impart a bitter taste or flavour to beer;  
+Regulation 1.2.8: “methyl alcohol or methanol” means a clear, colourless, flammable liquid having chemical formula, CH3OH, consumption of which above the specified limits may cause blindness or death;  
+Regulation 1.2.9: “neutral spirit or neutral alcohol or neutral grain spirit or pure grain alcohol or extra neutral alcohol (ENA)” means a product obtained by distillation and rectification, with a minimum alcoholic strength of 96 per cent. abv, after alcoholic fermentation of cereal grains, fruits, vegetables, molasses or any other source of carbohydrates of agricultural origin;  
+Regulation 1.2.10: “pot-still or column distilled spirit” means the product of distillation done either in a pot-still in batches, or in continuous columns;  
+Regulation 1.2.11: “psychotropic substance” means substance as defined in the Schedule of the Narcotic Drugs and Psychotropic Substances Act, 1985 (61 of 1985) and rules made thereunder, and substances listed in Schedule E and E1 of the Drugs and Cosmetic Rules, 1945;  
+Regulation 1.2.12: “rectified spirit” means spirit purified by distillation to achieve strength of not less than 95 per cent.abv;  
+Regulation 1.2.13: “standard” means as defined in the Act;  
+Regulation 1.2.14: “table” means the tables appended to these regulations;  
+Regulation 1.2.15: “un-distilled alcoholic beverage or fermented beverage” means fermented un-distilled alcoholic beverage such as beer, wine, cider, or any other similar products;  
+Regulation 1.2.16: “yeast” means a unicellular micro-organism responsible for fermentation of sugars to produce ethanol and carbon dioxide.  
 
-**Regulation 1.3 General requirements:**  
-**Regulation 1.3.1:** Alcoholic beverages shall be free from chloral hydrate, ammonium chloride, paraldehyde, pyridine, diazepam or narcotic, psychotropic substances including caffeine except naturally-occurring caffeine.  
-**Regulation 1.3.2:** The tolerance limit for ethyl alcohol content shall be ± 0.3 per cent (± 0.5 in case of wines) for upto 20 per cent, and ±1.0 per cent for more than 20 per cent abv of the declared strength.  
-**Regulation 1.3.3:** Sugar may be added for rounding off of the alcoholic beverage.  
-**Regulation 1.3.4:** The water used for dilution to bottling strength shall meet the requirements as specified in Indian Standards for Drinking Water, IS:10500 as amended from time to time.  
-**Regulation 1.3.5:** Alcoholic beverage may contain additives, enzymes and processing aids as permitted under the Food Safety and Standards (Food Products Standards and Food Additives) Regulations, 2011.  
-**Regulation 1.3.6:** Any alcoholic beverage when labelled as "matured”, shall be matured for a period of not less than one year in oak or other suitable wood vats or barrels or with wooden chips.  
-**Regulation 1.3.7:** Where an age claim is made in conjunction with the word “aged”, the age must refer to the youngest spirit in the blend.  
-**Regulation 1.3.8:** The test methods prescribed in the FSSAI “Manual of Methods of Analysis of Foods-Alcoholic Beverages” as amended from time to time shall be used for analysis.  
-**Regulation 1.3.9:** Alcoholic beverage shall be packed in suitable containers as specified in the Food Safety and Standards (Packaging and Labelling) Regulations, 2011:  
+Regulation 1.3 General requirements:  
+Regulation 1.3.1: Alcoholic beverages shall be free from chloral hydrate, ammonium chloride, paraldehyde, pyridine, diazepam or narcotic, psychotropic substances including caffeine except naturally-occurring caffeine.  
+Regulation 1.3.2: The tolerance limit for ethyl alcohol content shall be ± 0.3 per cent (± 0.5 in case of wines) for upto 20 per cent, and ±1.0 per cent for more than 20 per cent abv of the declared strength.  
+Regulation 1.3.3: Sugar may be added for rounding off of the alcoholic beverage.  
+Regulation 1.3.4: The water used for dilution to bottling strength shall meet the requirements as specified in Indian Standards for Drinking Water, IS:10500 as amended from time to time.  
+Regulation 1.3.5: Alcoholic beverage may contain additives, enzymes and processing aids as permitted under the Food Safety and Standards (Food Products Standards and Food Additives) Regulations, 2011.  
+Regulation 1.3.6: Any alcoholic beverage when labelled as "matured”, shall be matured for a period of not less than one year in oak or other suitable wood vats or barrels or with wooden chips.  
+Regulation 1.3.7: Where an age claim is made in conjunction with the word “aged”, the age must refer to the youngest spirit in the blend.  
+Regulation 1.3.8: The test methods prescribed in the FSSAI “Manual of Methods of Analysis of Foods-Alcoholic Beverages” as amended from time to time shall be used for analysis.  
+Regulation 1.3.9: Alcoholic beverage shall be packed in suitable containers as specified in the Food Safety and Standards (Packaging and Labelling) Regulations, 2011:  
 Provided that bulk containers shall have no upper limit for alcohol content, and shall meet the safety parameters of the product standards. Such products shall also carry a label declaring, “For Manufacturer of Alcoholic Beverages only”.  
 Alcoholic beverage containing not more than 8.0 per cent. abv may be called as low alcoholic beverage, and shall conform to the requirements of table 1 except for residue on evaporation.  
 
-**Regulation 1.4:** The words and expressions used but not defined in these regulations shall have the same meaning assigned to them in the Act and the rules made thereunder.  
+Regulation 1.4: The words and expressions used but not defined in these regulations shall have the same meaning assigned to them in the Act and the rules made thereunder.  
 
-**Part 2 Distilled Alcoholic Beverages**
+Part 2 Distilled Alcoholic Beverages
 
-**Regulation 2.1 Brandy:**  
+Regulation 2.1 Brandy:  
 Brandy is an alcoholic beverage made by distillation of wine. Brandy may be aged or matured to possess aroma and taste characteristic of brandy. Brandy may be of the following types:  
 
-**Regulation 2.1.1 Grape brandy:** Grape brandy shall be an alcoholic distillate obtained solely from the fermented juice of grapes. Distillation shall be carried out to a suitable strength in such a way that the distillate has an aroma and taste characteristics derived from the grapes used and the constituents formed during fermentation.  
+Regulation 2.1.1 Grape brandy: Grape brandy shall be an alcoholic distillate obtained solely from the fermented juice of grapes. Distillation shall be carried out to a suitable strength in such a way that the distillate has an aroma and taste characteristics derived from the grapes used and the constituents formed during fermentation.  
 In case of brandy made from any fruit other than grapes, the name of the fruit shall be pre-fixedwith the word ‘Brandy’.  
 
 **Regulation 2.1.2 Blended brandy:** Blended brandy is a mixture of minimum 2 per cent. of pure grape brandy with any other fruit or flower brandy or neutral spirit or rectified spirit of agricultural origin. If any other fruit brandy is used for blending, the name of such fruit shall be pre-fixed with the word ‘Brandy’. It shall possess the characteristic aroma and taste of brandy.  
