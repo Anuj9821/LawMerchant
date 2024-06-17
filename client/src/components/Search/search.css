@@ -1,0 +1,32 @@
+.rule-search{
+    margin: 10rem 0;
+    background-color: rgba(255, 255, 255, 0.267);
+    gap: 2rem;
+    
+    
+}
+.searchbar input{
+    color: aliceblue;
+
+}
+.searchbar input:hover{ 
+    border-color: rgb(141, 1, 157);
+}
+.searchbar button{
+    color: aliceblue;
+    background-color: rgb(99, 5, 168);
+    border-color: rgb(99, 5, 168);
+}
+.searchbar button:hover{
+    color: aliceblue;
+    background-color: rgb(141, 1, 157);
+    border-color: rgb(141, 1, 157);
+}
+
+.rules{
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(144, 144, 144, 0.349);
+}

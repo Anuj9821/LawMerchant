@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Hero from './components/Hero/hero';
 import Navbar from './components/Navbar/navbar';
+import Search from './components/Search/search';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <div className='main-cnt'>
         <Navbar />
         <Hero />
+        <Search/>
       </div>
     </div>
   );
