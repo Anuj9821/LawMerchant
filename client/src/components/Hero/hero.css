@@ -1,0 +1,40 @@
+/* hero.css */
+.Hero {
+    margin-top: 5rem;
+}
+
+.H-left {
+    flex: 1;
+}
+
+.H-left h1 {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.H-left h4 {
+    color: rgb(141, 1, 157);
+    padding: 2rem 0;
+}
+
+.H-left span {
+    color: gray;
+    padding: 2rem 0;
+}
+
+.H-right {
+    flex: 1;
+}
+
+@media (max-width: 767px) {
+    .H-left h1 {
+        font-size: 2.5rem; 
+    }
+    .H-left, .H-right {
+        text-align: center;
+        padding: 1rem;
+    }
+}

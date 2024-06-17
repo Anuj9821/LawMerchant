@@ -1,0 +1,34 @@
+/* navbar.css */
+.navbar {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-brand h2 {
+    margin: 0; /* Remove margin from h2 */
+}
+
+.navbar-nav {
+    gap: 2rem; /* Adjust gap between nav items */
+}
+
+.nav-link {
+    cursor: pointer;
+    font-size: large;
+    color: black; /* Ensure default color is black */
+}
+
+.nav-link:hover {
+    color: rgb(141, 1, 157);
+    font-weight: bold;
+}
+
+.nav-btn {
+    background-color: rgb(99, 5, 168);
+    border-radius: 3rem;
+    border-color: rgb(99, 5, 168);
+}
+
+.nav-btn:hover {
+    background-color: rgb(141, 1, 157);
+    border-color: rgb(141, 1, 157);
+}
