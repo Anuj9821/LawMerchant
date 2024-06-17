@@ -1,7 +1,7 @@
-import React from "react";
-import heroani from '../../animations/heroani.json'
+import React from 'react';
+import Lottie from 'lottie-react';
+import heroani from '../../animations/heroani.json';
 import './hero.css';
-import Lottie from "lottie-react";
 
 function Hero() {
     return (
