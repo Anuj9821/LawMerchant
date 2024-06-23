@@ -4,7 +4,7 @@ import spacy
 nlp = spacy.load('en_core_web_sm')
 
 # Define the keywords related to the product
-keywords = ['tea','regulations','Flavoured']
+keywords = ['turmeric','dahi','milk','regulation']
 
 # Function to extract relevant sentences
 def extract_relevant_sentences(doc, keywords):

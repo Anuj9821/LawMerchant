@@ -1,0 +1,16 @@
+.abtcards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    height: 100%;
+}
+.titldes{
+    display: flex;
+    gap: 5rem;
+    text-align: justify;
+    align-items: center;
+    justify-content: space-between;
+}

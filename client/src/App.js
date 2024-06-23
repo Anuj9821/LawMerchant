@@ -4,6 +4,7 @@ import './App.css';
 import Hero from './components/Hero/hero';
 import Navbar from './components/Navbar/navbar';
 import Search from './components/Search/search';
+import About from './components/About/about';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
         <Hero />
         <Search/>
+        <About/>
       </div>
     </div>
   );
