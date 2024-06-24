@@ -4,28 +4,15 @@ import spacy
 nlp = spacy.load('en_core_web_sm')
 
 # Define the keywords related to the product
-keywords = ['turmeric','dahi','milk','regulation']
+keywords = ['Milk','regulation']
 
-# Function to extract relevant sentences
-def extract_relevant_sentences(doc, keywords):
-    relevant_sentences = []
-    for sentence in doc.sents:
-        if any(keyword.lower() in sentence.text.lower() for keyword in keywords):
-            relevant_sentences.append(sentence.text)
-    return relevant_sentences
 
-def extract_relevant_sentences1(doc, keywords):
-    relevant_sentences = []
-    for sentence in doc.sents:
-        if all(keyword.lower() in sentence.text.lower() for keyword in keywords):
-            relevant_sentences.append(sentence.text)
-    return relevant_sentences
 
 def extract_relevant_sentences2(doc, keywords):
     relevant_sentences = []
     for sentence in doc.sents:
         keyword_count = sum(1 for keyword in keywords if keyword.lower() in sentence.text.lower())
-        if keyword_count >= 2:
+        if keyword_count > 1:
             relevant_sentences.append(sentence.text)
     return relevant_sentences
 
@@ -33,186 +20,216 @@ def extract_relevant_sentences2(doc, keywords):
 
 # Sample document text
 text = """
-MINISTRY OF HEALTH AND FAMILY WELFARE (Food Safety and Standards Authority of India)
+Regulations: General principals
+
+1. Approval of Article of Food and Label:
+Regulation: Approval of Article of Food and Label
+	a)Must be approved by the Food Authority before manufacture, sale, or storage.
+
+2. Packaging:
+Regulation: Packaging
+	a) Be packed in hermetically sealed, clean, and sound containers.
+	b)Use flexible packs made from paper, polymer, and/or metallic film as per Food Safety and Standards (Packaging) Regulations 2018.
+	c)Protect contents from deterioration.
+	d)Be packed under an inert atmosphere.
+	e)Use packaging material free from Bisphenol A (BPA).
+
+3. Nutrient Declaration:
+Regulation: Nutrient Declaration
+	a)Allows a variation of minus 10.0 percent from declared value.
+	b)Nutrient levels must not exceed the maximum limits specified in the composition tables.
+
+4. Source Compounds for Nutrients:
+Regulation: Source Compounds for Nutrients
+	a)Minerals, vitamins, and other nutrients as per Schedule-I(a), Schedule-I(b), and Schedule-I(c).
+
+5. DHA and ARA Content:
+Regulation: DHA and ARA Content
+	a)Contain algal and fungal oil sources of DHA and ARA from Crypthecodinium cohnii, Mortierella alpina, Schizochytrium sp., Ulkenia sp., or fish oil.
+	b)DHA level must be a maximum of 0.5 percent of total fatty acids.
+	c)Maintain ARA ratio of at least 1:1.
+
+6. Carbohydrate Source:
+Regulation: Carbohydrate Source
+	a)Lactose and glucose polymers.
+	b)Sucrose and/or fructose only if needed, and not exceeding 20 percent of total carbohydrate.
+
+7. Product Quality:
+Regulation: Product Quality
+	a)Be free from lumps and coarse particles.
+	b)Be uniform in appearance.
+	c)Be free from rancid taste and musty odour.
+
+8. Compliance with Acts:
+Regulation: Compliance with Acts
+	a)Infant Milk Substitutes, Feeding Bottles, and Infant Foods (Regulation of Production, Supply, and Distribution) Act 1992 (42 of 1992) as amended in 2003.
+	b)Advertisement, marketing, and promotion aspects.
+
+9. Legal Metrology Compliance:
+Regulation: Legal Metrology Compliance
+	a)Legal Metrology (Packaged Commodities) Rules 2011.
+
+10. Contaminants and Residues Compliance:
+Regulation: Contaminants and Residues Compliance
+	a)Food Safety and Standards (Contaminants, Toxins, and Residues) Regulations 2011.
+
+11. Prohibition and Restriction of Sales Compliance:
+Regulation: Prohibition and Restriction of Sales Compliance
+	a)Food Safety and Standards (Prohibition and Restriction of Sales) Regulation 2011.
+
+12. Microbiological Requirements:
+Regulation: Microbiological Requirements
+	a)Microbiological requirements specified under Appendix B of Food Safety and Standards (Food Products Standards and Food Additives) Regulations 2011.
+
+13. Advertising and Claims:
+Regulation: Advertising and Claims
+	a)Be in accordance with the Food Safety and Standards (Advertising and Claims) Regulations 2018.
+
+14. Nutritional Composition Compliance:
+Regulation: Nutritional Composition Compliance
+	a)Comply with the nutritional composition specified on a 100 gm or 100 kcal basis under specific product categories in the composition tables.
+
+
+
+--------------------
+Regulation: Labelling Requirements for Foods for Infant Nutrition
+
+1. General Labelling:
+Regulation: General Labelling
+	a)Food Safety and Standards (Labelling and Display) Regulations 2020.
+	b)Specific labelling requirements provided under these regulations.
+
+2. Important Notice:
+Regulation: Important Notice
+	a)The words "IMPORTANT NOTICE" in capital letters.
+	b)A statement "MOTHER’S MILK IS BEST FOR YOUR BABY" in capital letters, with text not less than five millimeters in height, printed on the front of the pack.
+	c)For infant food: A statement indicating "Infant food shall be introduced only after the age of six months and up to the age of two years."
+	d)For food for special medical purposes: The statement "MOTHER’S MILK IS BEST FOR YOUR BABY" is not required if breastfeeding is contraindicated.
+
+3. Usage Advice:
+Regulation: Usage Advice
+	a)Infant milk substitute or infant food should be used only on the advice of a health worker.
+
+4. Warning:
+Regulation: Warning
+	a)Infant milk substitute or infant food is not the sole source of nourishment for an infant.
+
+5. Preparation Instructions:
+Regulation: Preparation Instructions
+	a)Instructions for appropriate and hygienic preparation.
+	b)Cleaning of utensils, bottles, and teats.
+	c)Warning against health hazards of inappropriate preparations.
+
+6. Nutrient Composition:
+Regulation: Nutrient Composition
+	a)Energy value in kilocalories or kilojoules.
+
+7. Storage Conditions:
+Regulation: Storage Conditions
+	a)"Store in a cool and dry place in an airtight container."
+
+8. Feeding Instructions:
+Regulation: Feeding Instructions
+	a)Feeding chart.
+	b)Directions for use, including instructions for discarding leftover feed.
+
+9. Measuring Scoop Instructions:
+Regulation: Measuring Scoop Instructions
+	a)Use of the measuring scoop (level or heaped).
+	b)Quantity per scoop.
+
+10. Batch Details:
+Regulation: Batch Details
+	a)Batch number.
+	b)Month and year of manufacture.
+	c)Use by date, Recommended Last Consumption date, or Expiry Date.
+
+11. Protein Efficiency Ratio:
+Regulation: Protein Efficiency Ratio
+	a) A minimum protein efficiency ratio (PER) of 2.5.
+
+12. Additives Declaration:
+	a)Regulation: Additives Declaration
+	b)The specific name of food additives and appropriate class titles if permitted.
+
+13. Prohibited Graphics:
+Regulation: Prohibited Graphics
+	a)Pictures of infants or women, or other graphics designed to increase saleability.
+	b)Terms like “Humanised” or “Maternalised.”
+	c)Words like “Full Protein Food” or “Health Food.”
+
+14. Milk Declaration:
+Regulation: Milk Declaration
+	a)“Contains no milk or milk products or milk derivatives.”
+
+15. Surrounding Line for Warnings:
+Regulation: Surrounding Line for Warnings
+	a)“unsuitable for babies” are required to be used.
+
+16. Allergen Warning:
+Regulation: Allergen Warning
+	a)Any ingredients with known allergenicity are present.
+
+17. Contamination Warning:
+Regulation: Contamination Warning
+	a)Imported ingredients.
+
+------------------------
+Regulation: Infant Formula
+	a)Infant formula shall be in powder form and conform to the nutritional composition in Schedule-I (1).
+	b)It shall be based on milk or mixtures of milk and other ingredients.
+	c)The protein efficiency ratio (PER) shall be a minimum of 2.5.
+	d)The source of protein shall be either milk protein or mixtures of milk protein and protein from cereals or legumes, provided the protein efficiency ratio (PER) is met.
+
+Regulation: Follow-up Formula
+	a)Follow-up formula shall be in powder form and conform to the nutritional composition in Schedule-I (2).
+	b)It shall be based on milk, cereal, soy protein isolates, or a mixture of these ingredients.
+	c)The protein efficiency ratio (PER) shall be a minimum of 2.5.
+	d)It shall provide energy, protein, fat, carbohydrates, vitamins, and minerals in the specified quantities.
+
+Regulation: Milk Cereal Based Complementary Food
+	a)Milk cereal based complementary food shall be in powder form.
+	b)It shall provide the specified quantities of nutrients as per Schedule-I (3).
+	c)It shall be made from milk, cereals, legumes, millets, nuts, and protein concentrates or isolates.
+
+Regulation: Processed Cereal Based Complementary Food
+	a)Processed cereal based complementary food shall be in powder form.
+	b)It shall provide the specified quantities of nutrients as per Schedule-I (4).
+	c)It shall be made from cereals, legumes, millets, nuts, and protein isolates or concentrates.
+
+Regulation: Food for Special Medical Purposes
+	a)Food for special medical purposes intended for infants shall meet the specific nutritional requirements of infants with specific disorders, diseases, or medical conditions.
+	b)It shall be manufactured under medical supervision and conform to the nutritional composition in Schedule-I (5).
+
+--------------------------------
+Regulation: Nutritional Composition Details 
+
+a)Infant Formula (Schedule-I (1)):
+	i)Protein: Minimum 1.8 g/100 kcal, Maximum 3.0 g/100 kcal
+	ii)Fat: Minimum 3.0 g/100 kcal, Maximum 6.0 g/100 kcal
+	iii)Linoleic Acid: Minimum 300 mg/100 kcal, Maximum 1200 mg/100 kcal
+	iv)Vitamins & Minerals: Additional detailed nutrient values and limits as specified in the regulation.
+b)Follow-up Formula (Schedule-I (2)):
+	i)Protein: Minimum 3.0 g/100 kcal, Maximum 4.5 g/100 kcal
+	ii)Fat: Minimum 3.0 g/100 kcal, Maximum 6.0 g/100 kcal
+	iii)Linoleic Acid: Minimum 300 mg/100 kcal, Maximum 1200 mg/100 kcal
+	iv)Vitamins & Minerals: Additional detailed nutrient values and limits as specified in the regulation.
+c)Milk Cereal Based Complementary Food (Schedule-I (3)):
+	i)Protein: Minimum 3.0 g/100 kcal, Maximum 4.5 g/100 kcal
+	ii)Fat: Minimum 3.0 g/100 kcal, Maximum 6.0 g/100 kcal
+	iii)Linoleic Acid: Minimum 300 mg/100 kcal, Maximum 1200 mg/100 kcal
+	iv)Vitamins & Minerals: Additional detailed nutrient values and limits as specified in the regulation.
+d)Processed Cereal Based Complementary Food (Schedule-I (4)):
+	i)Protein: Minimum 3.0 g/100 kcal, Maximum 4.5 g/100 kcal
+	ii)Fat: Minimum 3.0 g/100 kcal, Maximum 6.0 g/100 kcal
+	iii)Linoleic Acid: Minimum 300 mg/100 kcal, Maximum 1200 mg/100 kcal
+	iv)Vitamins & Minerals: Additional detailed nutrient values and limits as specified in the regulation.
+e)Food for Special Medical Purposes (Schedule-I (5)):
+	i)Protein: Minimum 3.0 g/100 kcal, Maximum 4.5 g/100 kcal
+	ii)Fat: Minimum 3.0 g/100 kcal, Maximum 6.0 g/100 kcal
+	iii)Linoleic Acid: Minimum 300 mg/100 kcal, Maximum 1200 mg/100 kcal
+	iv)Vitamins & Minerals: Additional detailed nutrient values and limits as specified in the regulation.
 
-Notification New Delhi, dated the 1st August, 2011
-
-F.No. 2-15015/30/2010
-
-Whereas in exercise of the powers conferred by clause (l) of subsection (2) of section 92 read with section 26 of Food Safety and Standards Act, 2006 (34 of 2006) the Food Safety and Standards Authority of India proposes to make Food Safety and Standards Regulations in so far as they relate to Food Safety and Standards (Prohibition and Restrictions on sales) Regulations, 2011, and;
-
-Whereas these draft Regulations were published in consolidated form at pages 1 to 776 in the Gazette of India Extraordinary Part III – Sec. 4 dated 20th October 2010 inviting objections and suggestions from all persons likely to be affected thereby before the expiry of the period of thirty days from the date on which the copies of the Gazette containing the said notification were made available to the public;
-
-And whereas the copies of the Gazette were made available to the public on the 21st October 2010;
-
-And whereas objections and suggestions received from the stakeholders within the specified period on the said draft Regulations have been considered and finalized by the Food Safety and Standards Authority of India.
-
-Now therefore, the Food Safety and Standards Authority of India hereby makes the following Regulations, namely,—
-
-FOOD SAFETY AND STANDARDS (PROHIBITION AND RESTRICTIONS ON SALES) REGULATIONS, 2011
-CHAPTER 1: GENERAL
-Regulation 1.1: Title and commencement
-
-Regulation 1.1.1: These regulations may be called the Food Safety and Standards (Prohibition and Restrictions on sales) Regulations, 2011.
-
-Regulation 1.1.2: These regulations shall come into force on or after 5th August, 2011.
-
-Regulation 1.2: Definitions
-
-In these regulations unless the context otherwise requires:
-
-Regulation 1.2.1: "ingredient" means any substance, including a food additive used in the manufacture or preparation of food and present in the final product, possibly in a modified form;
-
-CHAPTER 2: PROHIBITION AND RESTRICTIONS ON SALES
-Regulation 2.1: Sale of certain admixtures prohibited
-
-Regulation 2.1.1 Notwithstanding the provisions of Regulation 2.7 of labelling and packaging regulations no person shall either by himself or by any servant or agent sell—
-
-Regulation 2.1.1.1: cream which has not been prepared exclusively from milk or which contains less than 25 per cent of milk fat;
-
-Regulation 2.1.1.2: milk which contains any added water;
-
-Regulation 2.1.1.3: ghee which contains any added matter not exclusively derived from milk fat;
-
-Regulation 2.1.1.4: skimmed milk (fat abstracted) as milk;
-
-Regulation 2.1.1.5: a mixture of two or more edible oils as an edible oil;
-
-Regulation 2.1.1.6: vanaspati to which ghee or any other substance has been added;
-
-Regulation 2.1.1.7: turmeric containing any foreign substance;
-
-Regulation 2.1.1.8: mixture of coffee and any other substance except chicory;
-
-Regulation 2.1.1.9: dahi or curd not prepared from boiled, pasteurised or sterilized milk;
-
-Regulation 2.1.1.10: milk or a milk product specified in Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011 containing a substance not found in milk, except as provided in the regulations.
-
-Provided that the Central Government or the Food Authority may, by notification in the Official Gazette exempt any preparations made of soluble extracts of coffee from the operation of this regulation.
-
-Provided further that proprietary food articles relating to Regulation 2.1.1(8) shall be exempted from the operation of this Regulation.
-
-Provided further that in respect of Regulation 2.1.1(5), a maximum tolerance of 15.0 red units in 1 cm. Cell of Lovibond scale is permitted when oil is tested for Boudouin test without dilution that is to say by shaking vigorously for 2 minutes, 5 ml. Of the sample with 5 ml. of the hydrochloric acid (specific gravity 1.19) and 0.3 ml. of 2 percent alcoholic solution of furfural and allowing to stand for 5 minutes.
-
-Provided further that in respect of Regulation 2.1.1(5) a maximum tolerance limit of 10 red units in one cm. cell on Lovibond scale is permitted when the oil is tested for Halphen’s test without dilution, that is to say, by shaking 5 ml. of the sample with 5 ml. of sulphur solution (one per cent (w/v) solution of sulphur in carbon-di-sulphide mixed with equal volume of amyl alcohol), in a closed system (test tube 250 x 25 Cm.) heating in hot water (70°C - 80°C) for a few minutes with occasional shaking until carbon-di-sulphide is boiled off and the sample stops foaming and then placing the tube on saturated brine bath, capable of being regulated at 110°C-115°C for 2.5 hours.
-
-Provided also that prohibition in Regulation 2.1.1 (5) shall remain inoperative in respect of admixture of any two edible vegetable oils as one edible vegetable oil, where –
-
-(a) the proportion by weight of any vegetable oil used in the admixture is not less than 20 per cent. by weight; and
-
-(b) the admixture of edible vegetable oils, is processed or packed and sold, by the Department of Civil Supplies, Government of India (Directorate of Vanaspati, Vegetable Oils and Fats) or by the agencies in public, private or Joint Sector authorized by the Department, or by the National Dairy Development Board or by the State Cooperative Oilseeds Growers Federation or Regional and District Cooperative Oilseeds Growers Union set up under National Dairy Development Board’s Oilseeds and Vegetable Oil Project or by the Public Sector undertakings of Central and State Governments, in sealed packages weighing not more than 15 litres under Agmark Certification Mark compulsorily and bearing the label declaration as laid down in the Regulation 2.4.2 (11) of Food Safety and Standards (Packaging and Labelling) Regulations, 2011 and
-
-(c) the quality of each edible oil used in the admixture conforms to the relevant standard prescribed by these regulations.
-
-Regulation 2.2: Restriction on use of certain ingredients
-
-Regulation 2.2.1: No person in any State shall, with effect from such date as the state government concerned may by notification in the official gazette specify in this behalf, sell or offer or expose for sale, or have in his possession for the purpose of sale, under any description or for use as an ingredient in the preparation of any article of food intended for sale:—
-
-(a) Kesari gram (Lathyrus sativus) and its products.
-
-(b) Kesari dal (Lathyrus sativus) and its products.
-
-(c) Kesari dal flour (Lathyrus sativus) and its products.
-
-(d) A mixture of Kesari gram (Lathyrus sativus) and Bengal-gram (Cicer arietinum) or any other gram.
-
-(e) A mixture of Kesari dal (Lathyrus sativus) and Bengal-gram dal (Cicer arietinum) or any other dal.
-
-(f) A mixture of Kesari dal (Lathyrus sativus) flour and Bengal-gram (Cicer arietinum) flour or any other flour.
-
-Explanation.—The equivalent of kesari gram in some of the Indian Languages are as follows:—
-
-1. Assamese: Khesari, Teora.
-
-2. Bengali: Khesari, Teora, Kassur, Batura.
-
-3. Bihari: Khesari, Teora, Kassur, Batura.
-
-4. English: Chikling vetch.
-
-5. Gujarati: Lang.
-
-6. Hindi: Khesari, Kessur, Kesari, Kassartiuri, Batura, Chapri, Dubia, Kansari, Kesori, Latri, Tinra, Tiuri, Kassor.
-
-7. Kannada: Laki Bele, Kessari Bele.
-
-8. Malyalam: Kesari, Lanki, Vattu.
-
-9. Tamil: Muku.
-
-10. Marathi: Lakheri, Batri, Lakhi, Lang, Mutra, Teora, Botroliki-dal, Lakh.
-
-11. Oriya: Khesra, Khesari, Khesari dal.
-
-12. Persian: Masang.
-
-13. Punjabi: Kisari, Chural, Karas, Karil, Kasa Kesari, Chapa.
-
-14. Sanskrit: Sandika, Triputi.
-
-15. Sindhi: Matter.
-
-16. Telugu: Lamka
-
-Regulation 2.3: Prohibition and Restriction on sale of certain products
-
-Regulation 2.3.1: Prohibition on use of carbide gas in ripening of fruits: No person shall ripen fruits by using acetylene gas, commonly known as carbide gas.
-
-Regulation 2.3.2: Restrictions relating to conditions for sale:
-
-Regulation 2.3.2.1: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any food which contains any substance or contaminant which is not within the permissible limits prescribed for it under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
-
-Regulation 2.3.2.2: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any food articles which contains any insecticides or pesticides residue beyond the limits prescribed under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
-
-Regulation 2.3.2.3: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any food articles which are not of the nature, substance or quality prescribed under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
-
-Regulation 2.3.3: Restrictions relating to conditions for sale of canned and bottled food products:
-
-Regulation 2.3.3.1: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any food articles which are not packed and labelled in accordance with the standards prescribed under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
-
-Regulation 2.3.3.2: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any food articles which are not packed and labelled in accordance with the standards prescribed under these Regulations and Food Safety and Standards (Packaging and Labelling) regulations, 2011.
-
-Regulation 2.3.4: Prohibition and Restriction on sale of fresh fruits and vegetables:
-
-Regulation 2.3.4.1: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any fresh fruits or vegetables which have been artificially coloured.
-
-Regulation 2.3.4.2: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any fresh fruits or vegetables which have been treated with waxes, calcium salts or other substances, except as provided in these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
-
-Regulation 2.3.4.3: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any fresh fruits or vegetables which are not of the nature, substance or quality prescribed under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
-
-Regulation 2.3.5: Restriction on sale of Ghee which does not conform to the standards laid down under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
-
-Regulation 2.3.6: Restriction on sale of Til Oil produced in Tripura, Assam and West Bengal: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any til oil produced in Tripura, Assam and West Bengal which does not conform to the standards laid down under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
-
-Regulation 2.3.7: Restriction on sale of Kangra tea: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any Kangra tea which does not conform to the standards laid down under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
-
-Regulation 2.3.8: Conditions for sale of flavoured tea: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any flavoured tea which does not conform to the standards laid down under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
-
-Regulation 2.3.9: Restriction on sale of non-iodized common salt for direct human consumption: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any common salt which is not iodized, unless it is sold or offered for sale or exposed for sale or stored for sale for animal consumption or for preservation not for direct human consumption.
-
-Regulation 2.3.10: Prohibition on use of flesh of naturally dead animals or fowls: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any flesh of animals or fowls which have died on their own.
-
-Regulation 2.3.11: Restrictions relating to conditions for sale:
-
-Regulation 2.3.11.1: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any food articles which are not of the nature, substance or quality prescribed under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
-
-Regulation 2.3.11.2: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any food articles which are not packed and labelled in accordance with the standards prescribed under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
-
-Regulation 2.3.11.3: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any food articles which are not packed and labelled in accordance with the standards prescribed under these Regulations and Food Safety and Standards (Packaging and Labelling) regulations, 2011.
-
-Regulation 2.3.12: Special provisions relating to sale of vegetable oil and fat
-
-Regulation 2.3.12.1: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any edible oil which does not conform to the standards laid down under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
-
-Regulation 2.3.12.2: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any edible oil which contains any harmful substances.
-
-Regulation 2.3.12.3: List of vegetable oils approved for Vanaspati preparation.
-
-Regulation 2.3.12.4: Restriction on adding color to hydrogenated vegetable oil.
-
-Regulation 2.3.12.5: Use of permitted antioxidants and substances.
-
-Regulation 2.3.12.6: Restriction on the use of solvent in vegetable oils.
 """
 # Process the document
 doc = nlp(text)
