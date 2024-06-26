@@ -2,10 +2,10 @@ import re
 import spacy
 import nltk
 
-
+# Ensure you have the required nltk data files
 nltk.download('punkt')
 
-
+# Ensure the SpaCy model is downloaded
 try:
     nlp = spacy.load('en_core_web_lg')
 except OSError:
@@ -13,11 +13,9 @@ except OSError:
     download('en_core_web_lg')
     nlp = spacy.load('en_core_web_lg')
 
-
 def read_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return file.read()
-
 
 def extract_product_sections(text, product_keyword):
     extracted_sections = {}
@@ -35,16 +33,30 @@ def extract_product_sections(text, product_keyword):
             # Use SpaCy to process the text and extract sentences
             doc = nlp(match)
             sentences = [sent.text for sent in doc.sents]
-            # Filter out sentences that do not match the context of the product keyword
-            relevant_sentences = [sent for sent in sentences if product_keyword.lower() in sent.lower()]
-            section_text = ' '.join(relevant_sentences)
+            # Join the sentences back to form the section text
+            section_text = ' '.join(sentences)
             extracted_sections[f"{product_keyword} - Section {i+1}"] = section_text
     return extracted_sections
 
+def format_sections(sections):
+    formatted_output = ""
+    for title, content in sections.items():
+        formatted_output += f"\n{title}:\n"
+        # Split content into points using regex for more comprehensive splitting
+        points = re.split(r'(\d+\.\s|[a-zA-Z]\.\s)', content)
+        formatted_content = ""
+        i = 0
+        while i < len(points):
+            if points[i].strip() and re.match(r'\d+\.\s|[a-zA-Z]\.\s', points[i]):
+                formatted_content += f"- {points[i].strip()} {points[i + 1].strip()}\n"
+                i += 2
+            else:
+                formatted_content += f"- {points[i].strip()}\n"
+                i += 1
+        formatted_output += formatted_content
+    return formatted_output
 
-# File path to the regulations text file
 file_path = 'Compendium_Food_Fortification_Regulations_05_06_2022.txt'
-
 # Read the regulations text from the file
 regulations_text = read_file(file_path)
 
@@ -54,8 +66,9 @@ product_name = input("Enter the product name: ").strip()
 # Extract product sections
 product_sections = extract_product_sections(regulations_text, product_name)
 
+# Format and display extracted sections
 if product_sections:
-    for title, content in product_sections.items():
-        print(title + ":\n" +content + "\n\n")
+    formatted_output = format_sections(product_sections)
+    print(formatted_output)
 else:
     print(f"No sections found for the product name: {product_name}")
