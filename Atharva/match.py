@@ -10,7 +10,7 @@ try:
     nlp = spacy.load('en_core_web_lg')
 except OSError:
     from spacy.cli import download
-    download('en_core_web_lgs')
+    download('en_core_web_lg')
     nlp = spacy.load('en_core_web_lg')
 
 
