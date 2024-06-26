@@ -7,11 +7,11 @@ nltk.download('punkt')
 
 
 try:
-    nlp = spacy.load('en_core_web_sm')
+    nlp = spacy.load('en_core_web_lg')
 except OSError:
     from spacy.cli import download
-    download('en_core_web_sm')
-    nlp = spacy.load('en_core_web_sm')
+    download('en_core_web_lgs')
+    nlp = spacy.load('en_core_web_lg')
 
 
 def read_file(file_path):
@@ -41,25 +41,9 @@ def extract_product_sections(text, product_keyword):
             extracted_sections[f"{product_keyword} - Section {i+1}"] = section_text
     return extracted_sections
 
-# Function to format extracted sections into bullet points with hierarchy
-def format_sections(sections):
-    formatted_output = ""
-    for title, content in sections.items():
-        formatted_output += f"\n{title}:\n"
-        # Split content into points using regex for more comprehensive splitting
-        points = re.split(r'(?<=\.\s)(?=[A-Z0-9])', content)
-        for point in points:
-            if point.strip():  # Check to ensure no empty points are added
-                formatted_output += f"- {point.strip()}\n"
-                # Check for sub-points (e.g., a, b, c or i, ii, iii)
-                sub_points = re.split(r'(?<=\)\s)(?=[a-zA-Z])', point.strip())
-                if len(sub_points) > 1:
-                    for sub_point in sub_points[1:]:
-                        formatted_output += f"  - {sub_point.strip()}\n"
-    return formatted_output
 
 # File path to the regulations text file
-file_path = 'Regulation.txt'
+file_path = 'Compendium_Food_Fortification_Regulations_05_06_2022.txt'
 
 # Read the regulations text from the file
 regulations_text = read_file(file_path)
@@ -70,9 +54,8 @@ product_name = input("Enter the product name: ").strip()
 # Extract product sections
 product_sections = extract_product_sections(regulations_text, product_name)
 
-# Format and display extracted sections
 if product_sections:
-    formatted_output = format_sections(product_sections)
-    print(formatted_output)
+    for title, content in product_sections.items():
+        print(title + ":\n" +content + "\n\n")
 else:
     print(f"No sections found for the product name: {product_name}")

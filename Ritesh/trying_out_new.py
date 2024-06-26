@@ -1,0 +1,227 @@
+import spacy
+
+def extract_regulations_spaCy(product_name, text):
+    """
+    This function uses spaCy to extract potential regulations related to a product.
+
+    Args:
+        product_name: Name of the food product (string)
+        text: Full text extracted from the PDF (string)
+
+    Returns:
+        A list of potential regulations (strings)
+    """
+
+    # Load the spaCy model (replace 'en_core_web_sm' with a larger model if needed)
+    nlp = spacy.load("en_core_web_sm")
+
+    # Create a document object from the text
+    doc = nlp(text)
+
+    # Define custom matcher to find noun phrases related to regulations and product
+    matcher = spacy.matcher.Matcher(nlp.vocab)
+    matcher.add("regulations", [[{"POS": "VERB", "lemma": {"in": ["require", "prohibit", "specify"]}}, {"POS": "NOUN"}]])  # Wrap pattern in a list
+    matcher.add("product", [[{"LOWER": product_name.lower()}]])  # Match the exact product name
+
+    # Find matches in the document
+    matches = matcher(doc)
+
+    # Extract potential regulations based on matches
+    regulations = []
+    for match_id, start, end in matches:
+        matched_span = doc[start:end]  # Get the matched text span
+        regulations.append(matched_span.text.strip())
+
+    return regulations
+
+# Example usage
+product_name = "Milk"
+text = """ MINISTRY OF HEALTH AND FAMILY WELFARE (Food Safety and Standards Authority of India)
+
+Notification New Delhi, dated the 1st August, 2011
+
+F.No. 2-15015/30/2010
+
+Whereas in exercise of the powers conferred by clause (l) of subsection (2) of section 92 read with section 26 of Food Safety and Standards Act, 2006 (34 of 2006) the Food Safety and Standards Authority of India proposes to make Food Safety and Standards Regulations in so far as they relate to Food Safety and Standards (Prohibition and Restrictions on sales) Regulations, 2011, and;
+
+Whereas these draft Regulations were published in consolidated form at pages 1 to 776 in the Gazette of India Extraordinary Part III – Sec. 4 dated 20th October 2010 inviting objections and suggestions from all persons likely to be affected thereby before the expiry of the period of thirty days from the date on which the copies of the Gazette containing the said notification were made available to the public;
+
+And whereas the copies of the Gazette were made available to the public on the 21st October 2010;
+
+And whereas objections and suggestions received from the stakeholders within the specified period on the said draft Regulations have been considered and finalized by the Food Safety and Standards Authority of India.
+
+Now therefore, the Food Safety and Standards Authority of India hereby makes the following Regulations, namely,—
+
+FOOD SAFETY AND STANDARDS (PROHIBITION AND RESTRICTIONS ON SALES) REGULATIONS, 2011
+CHAPTER 1: GENERAL
+Regulation 1.1: Title and commencement
+
+Regulation 1.1.1: These regulations may be called the Food Safety and Standards (Prohibition and Restrictions on sales) Regulations, 2011.
+
+Regulation 1.1.2: These regulations shall come into force on or after 5th August, 2011.
+
+Regulation 1.2: Definitions
+
+In these regulations unless the context otherwise requires:
+
+Regulation 1.2.1: "ingredient" means any substance, including a food additive used in the manufacture or preparation of food and present in the final product, possibly in a modified form;
+
+CHAPTER 2: PROHIBITION AND RESTRICTIONS ON SALES
+Regulation 2.1: Sale of certain admixtures prohibited
+
+Regulation 2.1.1 Notwithstanding the provisions of Regulation 2.7 of labelling and packaging regulations no person shall either by himself or by any servant or agent sell—
+
+Regulation 2.1.1.1: cream which has not been prepared exclusively from milk or which contains less than 25 per cent of milk fat;
+
+Regulation 2.1.1.2: milk which contains any added water;
+
+Regulation 2.1.1.3: ghee which contains any added matter not exclusively derived from milk fat;
+
+Regulation 2.1.1.4: skimmed milk (fat abstracted) as milk;
+
+Regulation 2.1.1.5: a mixture of two or more edible oils as an edible oil;
+
+Regulation 2.1.1.6: vanaspati to which ghee or any other substance has been added;
+
+Regulation 2.1.1.7: turmeric containing any foreign substance;
+
+Regulation 2.1.1.8: mixture of coffee and any other substance except chicory;
+
+Regulation 2.1.1.9: dahi or curd not prepared from boiled, pasteurised or sterilized milk;
+
+Regulation 2.1.1.10: milk or a milk product specified in Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011 containing a substance not found in milk, except as provided in the regulations.
+
+Provided that the Central Government or the Food Authority may, by notification in the Official Gazette exempt any preparations made of soluble extracts of coffee from the operation of this regulation.
+
+Provided further that proprietary food articles relating to Regulation 2.1.1(8) shall be exempted from the operation of this Regulation.
+
+Provided further that in respect of Regulation 2.1.1(5), a maximum tolerance of 15.0 red units in 1 cm. Cell of Lovibond scale is permitted when oil is tested for Boudouin test without dilution that is to say by shaking vigorously for 2 minutes, 5 ml. Of the sample with 5 ml. of the hydrochloric acid (specific gravity 1.19) and 0.3 ml. of 2 percent alcoholic solution of furfural and allowing to stand for 5 minutes.
+
+Provided further that in respect of Regulation 2.1.1(5) a maximum tolerance limit of 10 red units in one cm. cell on Lovibond scale is permitted when the oil is tested for Halphen’s test without dilution, that is to say, by shaking 5 ml. of the sample with 5 ml. of sulphur solution (one per cent (w/v) solution of sulphur in carbon-di-sulphide mixed with equal volume of amyl alcohol), in a closed system (test tube 250 x 25 Cm.) heating in hot water (70°C - 80°C) for a few minutes with occasional shaking until carbon-di-sulphide is boiled off and the sample stops foaming and then placing the tube on saturated brine bath, capable of being regulated at 110°C-115°C for 2.5 hours.
+
+Provided also that prohibition in Regulation 2.1.1 (5) shall remain inoperative in respect of admixture of any two edible vegetable oils as one edible vegetable oil, where –
+
+(a) the proportion by weight of any vegetable oil used in the admixture is not less than 20 per cent. by weight; and
+
+(b) the admixture of edible vegetable oils, is processed or packed and sold, by the Department of Civil Supplies, Government of India (Directorate of Vanaspati, Vegetable Oils and Fats) or by the agencies in public, private or Joint Sector authorized by the Department, or by the National Dairy Development Board or by the State Cooperative Oilseeds Growers Federation or Regional and District Cooperative Oilseeds Growers Union set up under National Dairy Development Board’s Oilseeds and Vegetable Oil Project or by the Public Sector undertakings of Central and State Governments, in sealed packages weighing not more than 15 litres under Agmark Certification Mark compulsorily and bearing the label declaration as laid down in the Regulation 2.4.2 (11) of Food Safety and Standards (Packaging and Labelling) Regulations, 2011 and
+
+(c) the quality of each edible oil used in the admixture conforms to the relevant standard prescribed by these regulations.
+
+Regulation 2.2: Restriction on use of certain ingredients
+
+Regulation 2.2.1: No person in any State shall, with effect from such date as the state government concerned may by notification in the official gazette specify in this behalf, sell or offer or expose for sale, or have in his possession for the purpose of sale, under any description or for use as an ingredient in the preparation of any article of food intended for sale:—
+
+(a) Kesari gram (Lathyrus sativus) and its products.
+
+(b) Kesari dal (Lathyrus sativus) and its products.
+
+(c) Kesari dal flour (Lathyrus sativus) and its products.
+
+(d) A mixture of Kesari gram (Lathyrus sativus) and Bengal-gram (Cicer arietinum) or any other gram.
+
+(e) A mixture of Kesari dal (Lathyrus sativus) and Bengal-gram dal (Cicer arietinum) or any other dal.
+
+(f) A mixture of Kesari dal (Lathyrus sativus) flour and Bengal-gram (Cicer arietinum) flour or any other flour.
+
+Explanation.—The equivalent of kesari gram in some of the Indian Languages are as follows:—
+
+1. Assamese: Khesari, Teora.
+
+2. Bengali: Khesari, Teora, Kassur, Batura.
+
+3. Bihari: Khesari, Teora, Kassur, Batura.
+
+4. English: Chikling vetch.
+
+5. Gujarati: Lang.
+
+6. Hindi: Khesari, Kessur, Kesari, Kassartiuri, Batura, Chapri, Dubia, Kansari, Kesori, Latri, Tinra, Tiuri, Kassor.
+
+7. Kannada: Laki Bele, Kessari Bele.
+
+8. Malyalam: Kesari, Lanki, Vattu.
+
+9. Tamil: Muku.
+
+10. Marathi: Lakheri, Batri, Lakhi, Lang, Mutra, Teora, Botroliki-dal, Lakh.
+
+11. Oriya: Khesra, Khesari, Khesari dal.
+
+12. Persian: Masang.
+
+13. Punjabi: Kisari, Chural, Karas, Karil, Kasa Kesari, Chapa.
+
+14. Sanskrit: Sandika, Triputi.
+
+15. Sindhi: Matter.
+
+16. Telugu: Lamka
+
+Regulation 2.3: Prohibition and Restriction on sale of certain products
+
+Regulation 2.3.1: Prohibition on use of carbide gas in ripening of fruits: No person shall ripen fruits by using acetylene gas, commonly known as carbide gas.
+
+Regulation 2.3.2: Restrictions relating to conditions for sale:
+
+Regulation 2.3.2.1: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any food which contains any substance or contaminant which is not within the permissible limits prescribed for it under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
+
+Regulation 2.3.2.2: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any food articles which contains any insecticides or pesticides residue beyond the limits prescribed under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
+
+Regulation 2.3.2.3: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any food articles which are not of the nature, substance or quality prescribed under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
+
+Regulation 2.3.3: Restrictions relating to conditions for sale of canned and bottled food products:
+
+Regulation 2.3.3.1: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any food articles which are not packed and labelled in accordance with the standards prescribed under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
+
+Regulation 2.3.3.2: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any food articles which are not packed and labelled in accordance with the standards prescribed under these Regulations and Food Safety and Standards (Packaging and Labelling) regulations, 2011.
+
+Regulation 2.3.4: Prohibition and Restriction on sale of fresh fruits and vegetables:
+
+Regulation 2.3.4.1: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any fresh fruits or vegetables which have been artificially coloured.
+
+Regulation 2.3.4.2: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any fresh fruits or vegetables which have been treated with waxes, calcium salts or other substances, except as provided in these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
+
+Regulation 2.3.4.3: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any fresh fruits or vegetables which are not of the nature, substance or quality prescribed under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
+
+Regulation 2.3.5: Restriction on sale of Ghee which does not conform to the standards laid down under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
+
+Regulation 2.3.6: Restriction on sale of Til Oil produced in Tripura, Assam and West Bengal: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any til oil produced in Tripura, Assam and West Bengal which does not conform to the standards laid down under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
+
+Regulation 2.3.7: Restriction on sale of Kangra tea: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any Kangra tea which does not conform to the standards laid down under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
+
+Regulation 2.3.8: Conditions for sale of flavoured tea: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any flavoured tea which does not conform to the standards laid down under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
+
+Regulation 2.3.9: Restriction on sale of non-iodized common salt for direct human consumption: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any common salt which is not iodized, unless it is sold or offered for sale or exposed for sale or stored for sale for animal consumption or for preservation not for direct human consumption.
+
+Regulation 2.3.10: Prohibition on use of flesh of naturally dead animals or fowls: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any flesh of animals or fowls which have died on their own.
+
+Regulation 2.3.11: Restrictions relating to conditions for sale:
+
+Regulation 2.3.11.1: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any food articles which are not of the nature, substance or quality prescribed under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
+
+Regulation 2.3.11.2: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any food articles which are not packed and labelled in accordance with the standards prescribed under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
+
+Regulation 2.3.11.3: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any food articles which are not packed and labelled in accordance with the standards prescribed under these Regulations and Food Safety and Standards (Packaging and Labelling) regulations, 2011.
+
+Regulation 2.3.12: Special provisions relating to sale of vegetable oil and fat
+
+Regulation 2.3.12.1: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any edible oil which does not conform to the standards laid down under these Regulations and Food Safety and Standards (Food Products Standards and Food Additives) regulations, 2011.
+
+Regulation 2.3.12.2: No person shall sell or offer or expose for sale or have in his premises for the purpose of sale under any description, any edible oil which contains any harmful substances.
+
+Regulation 2.3.12.3: List of vegetable oils approved for Vanaspati preparation.
+
+Regulation 2.3.12.4: Restriction on adding color to hydrogenated vegetable oil.
+
+Regulation 2.3.12.5: Use of permitted antioxidants and substances.
+
+Regulation 2.3.12.6: Restriction on the use of solvent in vegetable oils."""  # Replace with your actual extracted text
+
+regulations = extract_regulations_spaCy(product_name, text)
+
+if regulations:
+    print("Potential Regulations:")
+    for reg in regulations:
+        print(reg)
+else:
+    print("No regulations found related to", product_name)

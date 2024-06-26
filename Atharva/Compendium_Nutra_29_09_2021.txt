@@ -1,25 +1,3 @@
-import spacy
-
-# Load the spaCy large model
-nlp = spacy.load('en_core_web_sm')
-
-# Define the keywords related to the product
-keywords = ['vitamin e','regulation']
-
-
-
-def extract_relevant_sentences2(doc, keywords):
-    relevant_sentences = []
-    for sentence in doc.sents:
-        keyword_count = sum(1 for keyword in keywords if keyword.lower() in sentence.text.lower())
-        if keyword_count > 1:
-            relevant_sentences.append(sentence.text)
-    return relevant_sentences
-
-
-
-# Sample document text
-text = """
 **Regulation Title: Regulations on Food Products in Capsule Format
 
 Regulation: General Requirements
@@ -880,14 +858,3 @@ Common Name: Beta glucans
 Beta vulgaris
 
 Common Name: Beta vulgaris (root extract)
-
-"""
-# Process the document
-doc = nlp(text)
-
-# Extract relevant sentences
-relevant_sentences = extract_relevant_sentences2(doc, keywords)
-
-# Print the relevant sentences
-for sentence in relevant_sentences:
-    print(sentence+"\n")
