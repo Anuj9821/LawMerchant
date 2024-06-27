@@ -19,7 +19,7 @@ def read_file(file_path):
 
 def extract_product_sections(text, product_keyword):
     extracted_sections = {}
-    # Improved regex pattern to match sections starting with the product keyword and ending before the next uppercase heading or numbered section
+    # Improved regex pattern to match sections starting with the product keyword and including subpoints
     pattern = re.compile(
         rf'(?i)(^.*?{re.escape(product_keyword)}.*?)(?=\n[A-Z][^a-z]|\n[0-9]+\.\s|\Z)',
         re.DOTALL | re.MULTILINE
@@ -36,7 +36,13 @@ def extract_product_sections(text, product_keyword):
             doc = nlp(match)
             sentences = [sent.text for sent in doc.sents]
             # Filter out sentences that do not match the context of the product keyword
-            relevant_sentences = [sent for sent in sentences if product_keyword.lower() in sent.lower()]
+            relevant_sentences = []
+            for sent in sentences:
+                if product_keyword.lower() in sent.lower():
+                    relevant_sentences.append(sent)
+                elif relevant_sentences and re.match(r'^[a-zA-Z0-9]\.', sent.strip()):
+                    relevant_sentences.append(sent)
+            
             section_text = ' '.join(relevant_sentences)
             extracted_sections[f"{product_keyword} - Section {i+1}"] = section_text
             print(f"DEBUG: Extracted section {i+1} with {len(relevant_sentences)} relevant sentences")
