@@ -2,10 +2,10 @@ import re
 import spacy
 import nltk
 
-
+# Download necessary NLTK data
 nltk.download('punkt')
 
-
+# Load SpaCy model
 try:
     nlp = spacy.load('en_core_web_lg')
 except OSError:
@@ -13,21 +13,21 @@ except OSError:
     download('en_core_web_lg')
     nlp = spacy.load('en_core_web_lg')
 
-
 def read_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return file.read()
-
 
 def extract_product_sections(text, product_keyword):
     extracted_sections = {}
     # Improved regex pattern to match sections starting with the product keyword and ending before the next uppercase heading or numbered section
     pattern = re.compile(
-        rf'(?i)(^.?{re.escape(product_keyword)}.?)(?=\n[A-Z][^a-z]|\n[0-9]+\.\s|\Z)',
+        rf'(?i)(^.*?{re.escape(product_keyword)}.*?)(?=\n[A-Z][^a-z]|\n[0-9]+\.\s|\Z)',
         re.DOTALL | re.MULTILINE
     )
     matches = pattern.findall(text)
     
+    print(f"DEBUG: Found {len(matches)} matches for keyword '{product_keyword}'")
+
     if matches:
         for i, match in enumerate(matches):
             # Clean up the match by removing extra spaces and newlines
@@ -39,8 +39,9 @@ def extract_product_sections(text, product_keyword):
             relevant_sentences = [sent for sent in sentences if product_keyword.lower() in sent.lower()]
             section_text = ' '.join(relevant_sentences)
             extracted_sections[f"{product_keyword} - Section {i+1}"] = section_text
-    return extracted_sections
+            print(f"DEBUG: Extracted section {i+1} with {len(relevant_sentences)} relevant sentences")
 
+    return extracted_sections
 
 # File path to the regulations text file
 file_path = 'Compendium_Food_Fortification_Regulations_05_06_2022.txt'
@@ -56,6 +57,6 @@ product_sections = extract_product_sections(regulations_text, product_name)
 
 if product_sections:
     for title, content in product_sections.items():
-        print(title + ":\n" +content + "\n\n")
+        print(title + ":\n" + content + "\n\n")
 else:
     print(f"No sections found for the product name: {product_name}")
