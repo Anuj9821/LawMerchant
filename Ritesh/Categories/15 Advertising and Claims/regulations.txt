@@ -6,16 +6,22 @@ the information provided.
 quantities of nutrients as required by the body.
 (4) Where the claim benefit is related to or dependent on the method of preparation of the food the same
 shall be provided on the label.
-(5) Claims shall specify the number of servings of the food per day for the claimed benefit.
+(5) Reduction of disease risk claims shall specify the number of servings of the food per day for the claimed
+benefit.
 (6) The claim that a food has certain nutritional or health attributes shall be scientifically substantiated by
 validated methods of characterising or quantifying the ingredient or substance that is the basis for the
 claim.
 (7) Where the meaning of a trade mark, brand name or fancy name containing adjectives such as “natural”,
-“fresh”, “pure”, “original”, “traditional”, “authentic”, “genuine”, “real”, etc., appearing in the labelling,
-presentation or advertising of a food is such that it is likely to mislead consumer as to the nature of the
-food, in such cases a disclaimer in not less than 3mm size shall be given at appropriate place on the label
-stating that –
-“*This is only a brand name or trade mark and does not represent its true nature”.
+“fresh”, “pure”, “original”, “traditional”, “authentic”, “genuine”, “real”, appearing in the labelling, presentation or
+advertising of a food is such that it is likely to mislead the consumer as to the nature of the food, in such cases a
+disclaimer shall be mentioned prominently on the front of pack of the label stating that –
+“*This is only a brand name or trademark, or fancy name and does not represent its true nature; (relevant one may
+be chosen as applicable)” :
+Provided that the font size of the above disclaimer shall not be less than 1.5 mm for principal display panel upto
+100 cm2
+, not less than 2 mm for principal display panel between 100-200 cm2
+and not less 3 mm in case of
+principal display panel above 200 cm2.
 (8) All disclaimers related to a claim shall be conspicuous and legible.
 (9) Notwithstanding the mandatory declaration of Food Safety and Standards Authority of India logo and
 license number as per Food Safety and Standards (Packaging and Labelling) Regulations, 2011, no claim
@@ -38,26 +44,28 @@ conspicuous and legible.
 (b) the mention of nutrients as a mandatory part of nutrition labelling;
 (c) quantitative or qualitative declaration of certain nutrients or ingredients on the label if required by
 Food Safety and Standards Act, 2006 (34 of 2006) and the rules and regulations made thereunder.
-(3) Nutrient content or nutrient comparative claim or any synonymous claim shall be made in accordance
-with the conditions specified in Schedule I, provided flexibility in the wording of a nutrition claim is as
-per Schedule II, or the use of any other word if they are in accordance with conditions specified in
-Schedule I and the meaning of the claim is not altered.
+(3) When a nutrient content or any synonymous claim is made for the nutrients indicated in Schedule-I, it shall be
+made in accordance with the conditions specified in the said Schedule, provided flexibility in the wording of a
+nutrition claim is as per Schedule-II, or the use of any other word, if they are in accordance with conditions
+specified in Schedule-I and the meaning of the claim is not altered.
 (4) Where a nutrient comparative claim is made, the foods shall be different versions of the same food or
 similar foods being compared and shall be easily identifiable and the relative difference of the claimed
 parameter between the compared foods is-
-(a) at least twenty-five per cent. in the energy value or nutrient content and a minimum absolute
-difference equivalent to the figure defined as “low” or as a “source” in Schedule I, for claims about
-energy or macronutrients and sodium respectively.
-(b) at least ten per cent. of recommended dietary allowances, for claims about micronutrients other
-than sodium.
+(a) at least thirty per cent. in the energy value or macronutrients content;
+ (b) at least ten per cent. of the recommended dietary allowances per 100 g or 100 ml, for claims about
+micronutrients other than sodium;
+ (c) at least twenty-five per cent. in case of sodium, or the equivalent value for salt:
+Provided that in case of salt when sold as such, then ten per cent. difference shall be acceptable.
 (5) In addition, where a comparative claim is made, the identity of the foods being compared and the
 amount of difference expressed as a percentage, fraction or an absolute amount shall be given in close
 proximity to the claim.
-(6) The equivalence claims in form of phrases such as "contains the same amount of [nutrient] as a [food]"
-and "as much [nutrient] as a [food]" may be used on the label or in the labeling of foods, provided that the
-amount of the nutrient in the reference food is enough to qualify that food as a "source" of that nutrient,
-and the labeled food, on per 100g or 100ml, is an equivalent, source of that nutrient (e.g., "as much fiber
-as an apple," and "contains the same amount of vitamin C as ….. glass of orange juice.")
+(6) The equivalence claims in the form of phrases such as "contains the same amount of [nutrient] as a [food]"
+and "as much [nutrient] as a [food]" may be used on the label or in the labeling of foods, provided that the amount
+of the nutrient in the reference food is enough to qualify that food as a "source" of that nutrient, and the labeled
+food, on per 100 g or 100 ml, is an equivalent source of that nutrient, or where the food nutrient is at the same
+level as the naturally occurring reference food nutrient, the same shall be indicated on the label and through
+nutritional information (e.g., "as much fibre as an apple," and "contains the same amount of vitamin C as ….. glass
+of orange juice.").
 6. Non-addition claims.-
 (1) Non-addition of sugars.- (a) Claims regarding the non-addition of sugars to a food may be made if the
 following conditions are met, namely:-
@@ -73,19 +81,21 @@ to release sugars).
 (b) Claims regarding the non-addition of sugars to a food may also be made, where sugars are naturally
 present in the food, and in such case the following indication shall also appear on the label.
 ‘CONTAINS NATURALLY OCCURRING SUGARS’.
-(2) Non-addition of salt (Sodium chloride).- Claims regarding the non-addition of salt (sodium chloride)
-to a food, including “no added salt”, may be made if the following conditions are met, namely:-
-(a) The food contains no added salt (sodium chloride); and
-(b) The food contains no ingredients that contain added salt (sodium chloride) including but not
-limited to sauces, pickles, pepperoni, soya sauce, salted fish, fish sauce. 
-(3) Non-Addition of additives.- Claims regarding the non-addition of additives including functional
-classes of additives as specified in Food Safety and Standards (Food Product Standards and Food
-Additives) Regulations, 2011 to a food, may be made if that the additive for which claim is made-
-(a) has not been added to the food;
-(b) is not contained in any ingredient of the food;
-(c) is one which is allowed to be added in particular products as specified in Food Safety and
-Standards (Food Product Standards and Food Additives) Regulations, 2011; and
-(d) has not been substituted by another additive giving the food equivalent characteristics
+(2) Non-addition of sodium salts. - Claims regarding the non-addition of sodium salts to a food, including “no
+added salt”, may be made, if the following conditions are met, namely:
+(a) the food contains no added sodium salts, including but not limited to sodium chloride and sodium tripolyphosphate;
+(b) the food contains no ingredients that contain added sodium salts including but not limited to sauces, pickles,pepperoni, soya sauce, salted fish and fish sauce;
+(c) the food contains no ingredients that contain sodium salts that are used to substitute for added salt,including but not limited to seaweed.’;
+
+(3) Non-addition of additives. – Save as otherwise provided in any other regulations, the claims regarding the
+non-addition of additives including functional classes of additives as specified in the Food Safety and Standards
+(Food Product Standards and Food Additives) Regulations, 2011 to a food, may be made according to the
+following conditions, namely:-
+(a) has not been added to the food or removed from food at the time of manufacture;
+(b) is not contained in any ingredient of the food, except where it is naturally present;
+(c) is one which is allowed to be added in particular products as specified in the Food Safety and Standards
+(Food Product Standards and Food Additives) Regulations, 2011; and
+(d) has not been substituted by another additive giving the food equivalent characteristics.
 (4) Additional conditions for non-addition claims.- The additional conditions or disclaimer statements
 may be used with non-addition claims to assist consumer understanding of the claims provided that the
 disclaimer statements shall be conspicuous and legible.
@@ -204,12 +214,13 @@ Authority may itself analyse or may appoint an agency or panel to analyse such m
 (2) In case the agency or Food Authority requires information from the food business operator or marketer,
 the food authority will seek clarification failing which action shall be initiated as per sub-regulation (1) of
 regulation 13.
-(3) the food business operator or the marketer shall submit the information sought for within thirty days from
-the issue of the letter.
+(3) The food business operator or the marketer shall submit the information sought for within thirty days from the
+date of receipt of letter seeking clarification.
 (4) After scrutiny of the submitted information, the officer nominated by the Authority shall pass a speaking
 order within ninety days either for acceptance or rejection of submitted clarification on misleading claims.
 (5) The Food Authority may also suggest an improvement for the concerned claim and the improved claim
-shall be intimated to the Food Authority within forty- five days after issuance of letter.
+shall be intimated to the Food Authority within forty- five days from the date of
+receipt of notice of the suggested improvement of the claim from the Food Authority.
 15. Corrective advertisement.- If an advertisement is found to be in violation of the provisions of these
 regulations, the Food Authority may, by order, require the concerned food business operator or advertiser to
 stop it immediately and to issue corrective advertisement within thirty days through the same medium for
@@ -238,6 +249,21 @@ Sodium: Low sodium products contain not more than 0.12 g of sodium per 100 g for
 Dietary fibre: A source of dietary fibre contains at least 3 g of fibre per 100 g or 1.5 g per 100 kcal. Foods high or rich in dietary fibre contain at least 6 g per 100 g or 3 g per 100 kcal.
 Probiotics: A source of probiotics contains ≥10^8 CFU in the recommended serving size per day.
 Glycemic index (GI): Low GI foods have a GI value below 55. A food’s GI indicates the rate at which the carbohydrate in the food is broken down into glucose and absorbed from the gut into the blood and expressed as a percent of the response to the same amount of carbohydrate from a standard food, white bread.
+1. Coconut Oil: Contains medium chain fatty acids that are easily metabolized.
+2. Corn Oil: Rich in Omega-6 Poly Unsaturated Fatty Acid (Omega-6 PUFA, linoleic acid); linoleic acid is an essential fatty acid that helps to maintain normal blood cholesterol levels.
+3. Cottonseed Oil: Rich in Omega-6 Poly Unsaturated Fatty Acid (Omega-6 PUFA, linoleic acid); linoleic acid is an essential fatty acid that helps to maintain normal blood cholesterol levels; contains tocopherols which are natural antioxidants.
+4. Groundnut Oil: Contains Mono Unsaturated Fatty Acid (MUFA) and Omega-6 Poly Unsaturated Fatty Acid (Omega-6 PUFA) that helps lowering of cholesterol; contains tocopherols which are natural antioxidants.
+5. Linseed/Flax Seed Oil: Rich in Omega-3 Poly Unsaturated Fatty Acid (Omega-3 PUFA, Alpha linolenic acid); alpha linolenic acid is an essential fatty acid that contributes to the maintenance of normal blood cholesterol levels.
+6. Mustard/Rapeseed Oil (Low Erucic): Rich in Mono Unsaturated Fatty Acid (MUFA) that helps to maintain blood cholesterol levels; contains Omega-3 Poly Unsaturated Fatty Acid (Omega-3 PUFA, Alpha linolenic acid); alpha linolenic acid is an essential fatty acid that contributes to the maintenance of normal blood cholesterol levels.
+7. Mustard Oil: Contains Omega-3 Poly Unsaturated Fatty Acid (Omega-3 PUFA); alpha linolenic acid is an essential fatty acid that contributes to the maintenance of normal blood cholesterol levels; contains tocopherols which are natural antioxidants.
+8. Olive Oil/Olive Pomace Oil/Extra Virgin Olive Oil: Rich in Mono Unsaturated Fatty Acid (MUFA) that helps to maintain blood cholesterol levels; contains polyphenols which are natural antioxidants.
+9. Safflower Oil: Rich in Omega-6 Poly Unsaturated Fatty Acid (Omega-6 PUFA, linoleic acid); linoleic acid is an essential fatty acid that helps to maintain normal blood cholesterol levels.
+10. Palm Kernel Oil: Contains medium chain fatty acids that are easily metabolized.
+11. Palmolein Oil: Contains tocopherols and tocotrienols which are natural antioxidants.
+12. Rice Bran Oil: Contains MUFA and Omega-6 Poly Unsaturated Fatty Acid (Omega-6 PUFA) that helps lowering of cholesterol; contains oryzanol, tocopherols and tocotrienols which are natural antioxidants; oryzanol has antioxidant properties and reduces high blood cholesterol.
+13. Sesame Oil: Contains equal proportions of MUFA (oleic acid) and Omega-6 Poly Unsaturated Fatty Acid (Omega-6 PUFA, linoleic acid) that helps lowering of cholesterol; contains lignans which are natural antioxidants; contains tocopherols which are natural antioxidants.
+14. Soybean Oil: Contains Omega-6 Poly Unsaturated Fatty Acid (Omega-6 PUFA, linoleic acid) and Omega-3 Poly Unsaturated Fatty Acid (Omega-3 PUFA, alpha linolenic acid) in appropriate proportions suggested by RDA guidelines of ICMR; linoleic acid is an essential fatty acid that helps to maintain normal blood cholesterol levels; alpha linolenic acid is an essential fatty acid that contributes to the maintenance of normal blood cholesterol levels; contains tocopherols which are natural antioxidants.
+15. Sunflower Oil: Rich in Omega-6 Poly Unsaturated Fatty Acid (Omega-6 PUFA, linoleic acid); linoleic acid is an essential fatty acid that helps to maintain normal blood cholesterol levels; contains tocopherols which are natural antioxidants.
 
 SCHEDULE – III: HEALTH CLAIMS
 For calcium or calcium and vitamin D and osteoporosis, the food must be a source or high in calcium or in calcium and vitamin D, and a statement that the beneficial effect is obtained with a daily recommended intake (RDA). The claim statement is: Adequate calcium (or calcium and vitamin D) intake throughout life, through a balanced diet, is essential for bone health and to reduce the risk of osteoporosis.
@@ -254,7 +280,7 @@ SCHEDULE – IV: Health Claims for Fortified Food Articles
 Vitamin A helps against night blindness.
 Vitamin D supports strong bones.
 Vitamin B12 is important for maintaining normal functioning of the nervous system and blood formation.
-Folate and folic acid are important for foetal development and blood formation.
+Folate and folic acid are important  for  blood formation.
 Iron fights anemia.
 Iodine is required for normal growth, thyroid, and brain function.
 Zinc supports a healthy immune system.
@@ -267,10 +293,9 @@ SCHEDULE – V: Use of certain words or phrases
 
 The word "natural" may be used to describe a single food, derived from a recognized source such as a plant, animal, microorganism, or mineral, to which nothing has been added and which has been subjected only to processing that renders it suitable for human consumption, including smoking without chemicals, cooking processes such as roasting, blanching, dehydration, physical refining, freezing, concentration, pasteurization, sterilization, and fermentation, and packaging done without chemicals and preservatives. Permitted food additives that are obtained from natural sources by appropriate physical processing can also be described as "natural." Composite foods shall not themselves be described directly or by implication as "natural," but such foods may be described as "made from natural ingredients" if all the ingredients or food additives meet the criteria in (a) and (b) above. The above principles shall also apply to the use of other words or expressions such as "real" or "genuine" when used in place of "natural" in a way that implies similar benefits. Claims such as "natural goodness," "naturally better," or "nature's way" shall not be used.
 
-The term "fresh" shall only be used on products which have not been processed in any manner except washing, peeling, chilling, trimming, cutting, irradiating by ionizing radiation not exceeding 1kGy, or other processing necessary for making the product safe for consumption without altering its basic characteristics in any manner. If such processing leads to an extension in the shelf-life of the product, the term "fresh" shall not be used. The term "fresh" or "freshly" shall have no other connotation than the immediacy of the action being described. A food containing additives or subjected to packaging, storing, or other supply chain processes that control freshness shall not be termed as "freshly stored" or "freshly packed." "Fresh" may be permitted to be used along with "frozen" if it is clear from the context, such as "frozen from fresh," "fresh frozen," or "freshly frozen," indicating that the food was quickly frozen while still fresh.
+The term "fresh" shall only be used on products which have not been processed in any manner except washing, peeling, chilling, trimming, cutting, irradiating by ionizing radiation not exceeding 1kGy, or other processing necessary for making the product safe for consumption without altering its basic characteristics in any manner. The term "fresh" or "freshly" shall have no other connotation than the immediacy of the action being described. A food containing additives or subjected to packaging, storing, or other supply chain processes that control freshness shall not be termed as "freshly stored" or "freshly packed." "Fresh" may be permitted to be used along with "frozen" if it is clear from the context, such as "frozen from fresh," "fresh frozen," or "freshly frozen," indicating that the food was quickly frozen while still fresh.
 
-The term "pure" shall only be used to describe a single ingredient food to which nothing has been added and which is free from avoidable contamination, with levels of unavoidable contaminants below the levels prescribed in the Food Safety and Standards (Contaminants, Toxins, and Residues) Regulations, 2011, or any other standard under the Food Safety and Standards Act, Rules, and Regulations. Compound foods shall not generally be described directly or by implication as "pure," but such foods may be described as "made with pure ingredients" if all the ingredients meet the criteria in (a) above. "Pure" shall not be included in any brand or fancy names, nor in coined or meaningless phrases, in a way that implies that a food not meeting the criteria above is pure or made from pure ingredients.
-
+The term "pure" shall only be used to describe a single ingredient food to which nothing has been added and which is free from avoidable contamination, with levels of unavoidable contaminants below the levels prescribed in the Food Safety and Standards (Contaminants, Toxins, and Residues) Regulations, 2011, or any other standard under the Food Safety and Standards Act, Rules, and Regulations. Compound foods shall not generally be described directly or by implication as "pure," but such foods may be described as "made with pure ingredients" if all the ingredients meet the criteria in (a) above. 
 The terms "authentic," "genuine," and "real" may be used only if the label or advertisement clarifies in what way the overall quality is tangibly justified and why the particular term has been used.
 
 The term "traditional" shall demonstrably be used to describe a recipe, fundamental formulation, or processing method for a product that has existed for a generation (thirty years) and has remained substantially unchanged during that period.

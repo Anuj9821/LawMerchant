@@ -151,26 +151,18 @@ used. Fresh, seasonal and local produce shall be utilised for the preparation of
 fortified salt may be used strictly adhering the standards specified in the Food Safety and Standards
 (Fortification of Foods) Regulations, 2018. 
 
-_tableStart_
-S.No.,Inclusion in Menu,List of Foods and Beverages*
-1,"Always a part of the menu – 75-
-80% of the foods should belong
-from this category ","1. Cereals, Millets and Pulses – Such as whole wheat
-grain (atta), rice, Millets (ragi, bajra, etc.), Legumes
-(all dal and beans)
-2. Milk, Milk products, egg, meat and fish –milk,
-curd, yoghurt, lassi, butter milk,paneer, or milk
-products, lean meat, chicken, fish, egg
-3. Fruits and Vegetables –vegetables (including green
-leafy vegetables: other vegetables and roots and
-tubers) Fresh fruits (Local and seasonal produce)
-4. Oils, fats, nuts and oilseeds – walnuts, almonds,
-pistachios, roasted nuts without salt or sugar,
-groundnuts, sesame seeds, etc.5. Processed/cooked Foods–Freshly made soup,
-porridge, beverages with no added sugar, stir fried
-vegetables, snacks - boiled, baked or steamed, cereal
-or pulses based such as idli, upma, poha, khandvi,
-dhokla, cheela, namkin daliya, etc. "
-2,"To be eaten occasionally – in small portion size and reduced frequency (e.g., once in a week)","1. Desserts - Ice-creams, milk-based and dairy based sweet/desserts 2. Packed foods- cheese, canned and preserved vegetable, packaged meat or fish products, fruits/vegetables/cereal/pulses based snacks, nuts and seeds. 3. Bakery Products - white breads, biscuits, 4. Beverages - Packaged soups and juices cereal or malt based beverages, flavoured soya milk, etc."
-3,"Not to be made available in the school, hostel, etc.",Food products high in saturated fat or trans-fat or added sugar or sodium.
-_tableEnd_
+1. Always a part of the menu – 75-80% of the foods should belong from this category:
+   - Cereals, Millets and Pulses such as whole wheat grain (atta), rice, millets (ragi, bajra, etc.), legumes (all dal and beans).
+   - Milk, milk products, egg, meat and fish including milk, curd, yogurt, lassi, buttermilk, paneer, or milk products, lean meat, chicken, fish, egg.
+   - Fruits and Vegetables comprising vegetables (including green leafy vegetables, other vegetables, and roots and tubers), fresh fruits (local and seasonal produce).
+   - Oils, fats, nuts and oilseeds like walnuts, almonds, pistachios, roasted nuts without salt or sugar, groundnuts, sesame seeds, etc.
+   - Processed/cooked Foods such as freshly made soup, porridge, beverages with no added sugar, stir-fried vegetables, snacks (boiled, baked, or steamed), cereal or pulses based foods like idli, upma, poha, khandvi, dhokla, cheela, namkin daliya, etc.
+
+2. To be eaten occasionally – in small portion size and reduced frequency (e.g., once in a week):
+   - Desserts including ice-creams, milk-based and dairy-based sweet/desserts.
+   - Packed foods like cheese, canned and preserved vegetables, packaged meat or fish products, fruits/vegetables/cereal/pulses based snacks, nuts and seeds.
+   - Bakery Products such as white breads, biscuits.
+   - Beverages like packaged soups and juices, cereal or malt-based beverages, flavored soya milk, etc.
+
+3. Not to be made available in the school, hostel, etc.:
+   - Food products high in saturated fat or trans-fat or added sugar or sodium.

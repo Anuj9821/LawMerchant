@@ -141,11 +141,11 @@ for average adult per day, shall be given on the label containing the following:
 (ii) the amounts of
 (A) Protein (g);
 (B) Carbohydrate (g) and Total Sugars (g), added sugars (g);
-(C) Total fat (g), saturated fat (g), trans fat (other than naturally occurring trans fat)(g)and
-cholesterol (mg);
-Provided that the content of saturated fat and trans fat may be declared on the label as “not more
-than”.
-Provided that saturated fat and trans fat to be given only if fat content is more than 0.5%
+(C) “Provided that saturated fat and trans fat to be given only if total fat content is more than
+0.5% in final food.
+“Provided further that cholesterol content to be given only for products containing fats of
+animal origin and where total fat content is more than 0.5%.”
+
 (D) Sodium (mg);
 (iii) Wherever, numerical information on vitamins and minerals is declared, it shall be expressed in
 metric units;
@@ -176,7 +176,7 @@ ingredients than flavourings which do not modify the nutritional value of the te
 (ix) Fermented vinegars and substitutes for vinegar, including those where the only added
 ingredients are flavourings;
 (x) Flavourings, Food additives, Processing aids, Food enzymes, Gelatine, Yeast;
-(xi) Chewing-gums;
+(xi)  Chewing gum and bubble gum;
 (xii) Alcoholic Beverages.
 (xiii) Foods for Special Dietary Uses (FSDU), Foods for Special Medical Purposes(FSMP),
 subject to the compliance of requirements specified in the Food Safety and Standards
@@ -279,7 +279,7 @@ name and address of importer.
 sold, the Registration/Licence No. as the case may be or Food Safety Display Board if specified, along with
 other information as may be specified by the Food Authority from time to timeat a prominent place in the
 premises.
-(e) Fortified food and organic food shall be marked with the logo as specified in schedule II of these regulations.
+(e) Fortified food and organic food shall be marked with the logo as specified in schedule I of these regulations.
 FSSAI may specify logo for any other food as decided from time to time.
 (8) Net quantity, Retail Sale Price and Consumer Care details.-
 Declaration and manner of declarationof Net quantity, Retail Sale Price and Consumer Care details shall be
@@ -295,6 +295,8 @@ follows:
 months; the month and the year for products with a shelf life of more than three months, shall be
 declared in un-coded numerical sequence except that the month shall be indicated by capital letters and
 abbreviations (at least first three letters of the month) may be used.
+“Provided that for products with shelf life of more than three months, the “DD/MM/YY” format
+may also be used.”
 (c) In addition to the expiry or Use by, any special conditions for the storage of the food shall be declared on the
 label if the validity of the date depends thereon. If required, storage conditions after opening the pack may
 also be specified.
@@ -328,7 +330,18 @@ The following foods and ingredients which are known to cause allergy shall be de
 Contains............................ (Name of allergy causing ingredients)
 (i) Cereals containing gluten; i.e., wheat, rye, barley, oats, spelt or their hybridized strains and products of
 these (To be declared as name of the cereal);
-(ii) Crustacean and their products (To be declared as Crustacean);
+“except
+(a) wheat based glucose syrups including dextrose*;
+(b) wheat based maltodextrins*;
+(c) glucose syrups based on barley;
+(d) cereals used for making alcoholic distillates including ethyl alcohol of agricultural
+origin;
+Note: * The products thereof, provided these ingredients have been assessed as safe and
+gluten shall not be more than 20 mg/kg.”
+
+(ii) “Provided further that this declaration is not required in case of oils and distilled alcoholic
+beverages derived from these ingredients and where the product itself is a food allergen.”
+
 (iii) Milk & Milk products(To be declared as Milk);
 (iv) Eggs and egg products (To be declared as Egg);
 (v) Fish and fish products (To be declared as Fish);
@@ -362,14 +375,13 @@ card or tape affixed firmly to the package and bearing the required information 
 (3) The height of any numeral and letter required under these regulations, on the principal display panel shall be as
 shown in table below:
 TABLE I
+The area of the principal display panel up to 200 cm² requires a minimum height of numeral and letter to be 1 mm in the normal case and 2 mm when blown, formed, moulded, or perforated on the container.
 
-1. For an area of the principal display panel up to 100 cm², the minimum height of numerals and letters should be 1 mm in normal cases and 2 mm when blown, formed, moulded, or perforated on the container.
+The area of the principal display panel above 200 cm² up to 500 cm² requires a minimum height of numeral and letter to be 2 mm in the normal case and 4 mm when blown, formed, moulded, or perforated on the container.
 
-2. For an area of the principal display panel above 100 cm² up to 500 cm², the minimum height of numerals and letters should be 2 mm in normal cases and 4 mm when blown, formed, moulded, or perforated on the container.
+The area of the principal display panel above 500 cm² up to 2500 cm² requires a minimum height of numeral and letter to be 3 mm in the normal case and 5 mm when blown, formed, moulded, or perforated on the container.
 
-3. For an area of the principal display panel above 500 cm² up to 2500 cm², the minimum height of numerals and letters should be 4 mm in normal cases and 6 mm when blown, formed, moulded, or perforated on the container.
-
-4. For an area of the principal display panel above 2500 cm², the minimum height of numerals and letters should be 6 mm in normal cases and 8 mm when blown, formed, moulded, or perforated on the container.
+The area of the principal display panel above 2500 cm² requires a minimum height of numeral and letter to be 6 mm in the normal case and 8 mm when blown, formed, moulded, or perforated on the container.
 
 Provided that the size of numeral and/or letters required for declaration of net weight, retail
 sale price, date of expiry or best before or the use by date (wherever and as applicable) and Consumer care
@@ -389,8 +401,9 @@ corresponding declaration from time to time.
 (1) Where the surface area of the package is not more than 100 square centimetres, the label of such package
 shall be exempted from the requirements of list of ingredients, Lot Number or Batch Number or Code
 Number, nutritional information, labelling of irradiated food, declaration of food additives, License no and
-logo the name and complete address of the importer and instructions for use, but these information shall be
-given on the multi-unit packages.
+logo the name and complete address of the importer and instructions for use, but these information shall be given on the multi-unit packages.
+(a) The 'date of manufacture' and „Use by Date or Expiry Date‟ may not be required to be
+mentioned on the package having surface area of less than thirty square centimetres but this information shall be given on the multi-unit packages.;”
 (2) In case of liquid products marketed in bottles, if such bottle is intended to be reused for refilling, the
 requirement of list of ingredients shall be exempted, but the nutritional information specified in regulation 5(3)
 shall be given on the label.
@@ -511,3 +524,219 @@ Schedule-II
 (1) Every package of food containing the following ingredients/additives shall bear the following declarations on the
 label in a rectangular box, namely,-
 
+1. For products containing 10% or more polyols, the declaration should include a statement indicating that polyols may have a laxative effect.
+
+2. Products containing 10% or more polydextrose should declare that polydextrose may have a laxative effect.
+
+3. Products containing Isomaltulose should declare "Contains Isomaltulose" and specify the energy content in kilocalories (kcal) per 100g or 100ml.
+
+“5. 10 per cent. or more Sorbitol and Sorbitol syrup.
+May have laxative effect, cause bloating and diarrhea
+in children; and reduce calcium absorption in postmenopausal women.”;
+
+(2) Every package containing the following articles of food shall bear the following declarations on the label in a
+rectangular box, namely, -
+
+1. Refined wheat flour (Maida) treated with improver or bleaching agents is labeled as "REFINED WHEAT FLOUR (MAIDA) TREATED WITH IMPROVER/BLEACHING AGENTS, TO BE USED BY BAKERIES ONLY."
+
+2. Dried glucose syrup containing sulfur dioxide exceeding 40 ppm is labeled as "DRIED GLUCOSE SYRUP FOR USE IN SUGAR CONFECTIONERY ONLY."
+
+3. Fruit squash containing additional sodium or potassium salt is labeled as "CONTAINS ADDITIONAL SODIUM/POTASSIUM SALT."
+
+4. Flavour emulsion and flavour paste meant for use in carbonated or non-carbonated beverages is labeled as "FLAVOUR EMULSION AND FLAVOUR PASTE FOR USE IN CARBONATED OR NON-CARBONATED BEVERAGES ONLY."
+
+5. Cheese(s) coated or packed in food-grade waxes should be labeled with "COATED WAX TO BE REMOVED BEFORE CONSUMPTION."
+
+6. Frozen desserts or frozen confections made with edible vegetable oil and vegetable fat are labeled accordingly.
+
+7. Common salt, based on its purpose, is labeled for "IODISATION/IRON FORTIFICATION/ANIMAL USE/PRESERVATION NOT MEANT FOR DIRECT CONSUMPTION/INFANT FOOD PRODUCTS/MEDICINE/INDUSTRIAL USE."
+
+8. Fresh fruit coated with wax specifies the type of wax used, such as "COATED WITH WAX (give name of wax)."
+
+9. Gelatin meant for human consumption is labeled as "GELATIN FOOD GRADE."
+
+* Strike out whatever is not applicable.
+(3) Every package containing the following articles of food and advertisement relating thereto shall carry the warning
+and/or declaration, in a rectangular box, namely, -
+
+1. Pan Masala is labeled with "CHEWING OF PAN MASALA IS INJURIOUS TO HEALTH."
+Note: The warning statement must cover 50% of front-of-pack of
+the label”;
+
+
+2. Supari is labeled with "CHEWING OF SUPARI IS INJURIOUS TO HEALTH."
+
+3. Table top sweeteners containing Aspartame (Methyl ester), Acesulfame Potassium, Sucralose, Saccharin Sodium, Neotame are labeled as follows:
+   - (I) "CONTAINS........... (NAME OF ARTIFICIAL SWEETENER)"
+   - (II) "NOT RECOMMENDED FOR CHILDREN"
+
+4. Aspartame (Methyl ester) marketed as "Table Top Sweetener" is labeled with "NOT FOR PHENYLKETONURICS."
+
+(4) Every package of food containing the following ingredients/additives and advertisement relating thereto shall carry
+the following warning and declaration, in a rectangular box, namely,-
+"1. Sweeteners mentioned under Appendix A of Food Safety and Standards (Food Products Standards and Food Additive) Regulations, 2011:
+(i) This contains……………………….. (name of the sweetener).
+(ii) *Not recommended for phenylketonurics; for children suffering from seizure disorders; pregnant and lactating mothers (if Aspartame is added).
+(iii) *Not recommended for children; pregnant and lactating mothers” (if Acesulfame potassium is added).
+(iv) *Not recommended for phenylketonurics; for children; pregnant and lactating mothers (if Aspartame-Acesulfame salt is added).
+(v) *Not recommended for children (if SACCHARINS is added).
+
+Mixture of Sweeteners mentioned under Appendix A of Food Safety and Standards (Food Products Standards and Food Additive) Regulation, 2011:
+This ………........…… (name of food) contains an admixture of ......... (name of the sweeteners). Provided that in addition to the above declaration every package of food containing mixture of sweeteners shall declare the labelling requirement prescribed under these regulations for the individual sweeteners present in the mixture; Note: In case of food package having surface area up to 100 cm², the size of numerals & letters for such declarations shall not be less than 1.5 mm.
+
+Every package of food which is permitted to contain non-caloric sweetener mentioned in Food Safety and Standards (Food Products Standards and Food Additive) Regulations, 2011:
+CONTAINS NON-CALORIC SWEETENER."
+
+4. Monosodium Glutamate in packages of food is labeled with:
+   - "This package of (name of the food) ............... contains added MONOSODIUM GLUTAMATE."
+   - "NOT RECOMMENDED FOR INFANTS BELOW 12 MONTHS AND PREGNANT WOMEN."
+
+(5)Every container of refined vegetable oil shall bear the following label, namely,—
+Refined (name of the Oil) Oil
+
+(6) One time usable plastic bottles of packaged drinking water and mineral water shall carry the following declaration.
+
+CRUSH THE BOTTLE AFTER USE
+OR
+DISPOSE THE BOTTLE RESPONSIBLY
+
+(7) Every package of fat spread, milk products, milk based fruit drink, fermented milk products, soy and rice drink,
+cheese products, yoghurt products, spice sauces, salad dressings, juices and nectars containing added plant stanol
+esters shall bear the following label, namely: —
+
+Contains Plant Stanol Esters (as Plant Stanols )---gm/100 gm or 100ml.
+ Patients on cholesterol lowering medication should use the product under medicalsupervision.
+ May not be nutritionally appropriate for pregnant and lactating women and childrenunder the age
+of five years.
+ CONSUMPTION OF MORE THAN 3g. PER DAY, TOTAL OF STEROL,STANOLS OR
+COMBINATION THEREFOF SHALL BE AVOIDED.
+
+(8) Every package of biscuits, bread, cakes, breakfast cereals, carbonated water, thermally processed fruits, fruit
+juices, fruit nectars, fruit beverages, fruit squashes, jam, jelly, fruit cheese, marmalade, dairy based drinks, milk
+powder, carbohydrate- based and milk product based sweets like gulabjamun, rosogolla, peda, khoya burfi, macroni
+products, noodles, pasta, sweets and confectionery, candies and icings, savories and snacks wherever the trehalose is
+added shall bear the following label, namely:—
+
+Contains Trehalose
+
+(9) Every package of flakes and ready to eat dry breakfast cereals, noodles, pasta, salad dressings or toppings and
+spreads; table top fibre as filler or carrier, cereals and other snack food or savouries and bakery products including
+biscuits, cookies, bread, cake mix and pastries and other products where dextrin is allowed under Food Safety and
+standards (Food Products standards and Food Additive) Regulations, 2011, containing added Dietary Fibre (Dextrinsoluble fibre), shall bear the following declarations, namely:-
+
+Contains Dietary Fibre (Dextrin) ----- (Source of soluble Dietary Fibre)
+
+(1) Fat spread, milk products, milk based fruit drink, fermented milk products, soy and rice drinks, cheese
+products, yoghurt products, spice sauces, salad dressings, juices and nectars, edible oils, and bakery products
+containing added plant sterol shall contain the following declarations, namely: -
+
+Contains Plant Sterol (as Phytosterols) ---g/100g or 100ml.
+ Patients on cholesterol lowering medication should use the productunder medical
+supervision
+ May not be nutritionally appropriate for pregnant and lactating womenand children
+under the age of five years.
+ CONSUMPTION OF MORE THAN 3g/DAY,TOTAL OF STEROL,STANOLS,
+OR COMBINATION THEREOF, SHOULD BE AVOIDED
+
+(11)(a) The label of a food, which has been treated with ionizing radiation, shall carry a written statement indicating
+the treatment in close proximity to the name of the food.
+(b) Any food that has undergone the process of irradiation provided under regulation 2.13 of Food Safety and
+Standards (Food Products Standards and Food Additives) Regulations, 2011, shall bear the Radura logo in
+green colour and following declaration on the label, namely: -
+
+PROCESSED BY RADIATION
+Name of the Product:
+Purpose of Radiation Processing:
+Operating License No. :
+Batch Identification No. (BIN) (as provided by facility):
+Date of Processing..................…………”
+
+2. Specific requirements/ restrictions on manner of labelling
+2.1 Labelling of edible oils and fats
+(1) The package, label or the advertisement of edible refined vegetable oils and fats shall not use any exaggerated
+expressions like “Super-Refined”, “Extra-Refined”, “Micro-Refined”, “Double refined,”, Ultra-Refined”.
+(2) Every package of vanaspati made from more than 30 percent of Rice bran oil shall bear the following label,
+namely: -
+ ‘This package of vanaspati is made from more than
+ 30 per cent Rice bran oil by weight”
+(3) A package containing annatto colour in vegetable oils shall bear the following label namely:—
+
+Contains Annatto colour
+
+(4) Every package containing an admixture of edible oils shall carry the following label declaration
+immediately below its brand name/trade name on front of pack, namely
+
+Multi-Sourced Edible Vegetable Oils
+(Name and nature* of edible vegetable oil) ……………………..% by weight
+(Name and nature* of edible vegetable oil)………………………% by weight
+
+(*i.e. in raw or refined form)
+The font size of the label declaration “Multi-Sourced Edible Vegetable Oils” shall not be less than 5 mm and
+for label declaration “Name and nature of edible vegetable oil…..% by weight”, font size shall not be less
+than 3mm:
+Provided that the font size of the label declaration shall not be less than 10mm in case the net quantity of the
+edible oil contained in the packages is 5 litre and above.
+There shall also be the following declaration in bold capital letters along with the name of product on
+front/central panel,-
+
+NOT TO BE SOLD LOOSE
+
+2.2 Coffee-Chicory Mixture
+(1) Every package containing a mixture of coffee and chicory shall have affixed to it a label upon which shall be
+printed the following declaration:
+Coffee blended with Chicory
+This mixture contains
+Coffee…………………………… Percent
+Chicory………………………….. Percent
+(2) Every package containing Instant Coffee-Chicory mixture shall have affixed to it a label upon which shall be
+printed the following declarations:
+Instant Coffee-Chicory mixture made from blends of coffee and chicory
+Coffee…………………………… Percent
+Chicory………………………….. Percent
+2.3 Labelling of Milk and Milk products
+All Milk powders, skimmed milk powders and condensed milk (sweetened and flavoured) or similar products,
+which can be reconstituted into liquid milk, shall carry the following declaration on label:
+NOT TO BE USEDFOR INFANTS BELOW SIX MONTHS
+2.4 Labelling prohibitions for drinking water (both packaged and mineral)
+(1) No claims concerning medicinal (preventative, alleviative or curative) effects shall be made in respect of the
+properties of the product covered by the standard. Claims of other beneficial effects related to the health of
+the consumer shall not be made.
+
+(2) The name of the locality, hamlet or specified place may not form part of the trade name unless it refers to
+packaged water collected at the place designated by that trade name.
+(3) The use of any statement or of any pictorial device which may create confusion in the mind of the public or
+in any way mislead the public about the nature, origin, composition, and properties of such waters put on sale
+is prohibited.
+2.5 Labelling of ‘Gluten Free’ products
+(1) The term "Gluten Free" shall be printed in the immediate proximity of the name of the product in the case of
+products described in regulation 2.14 of the Food Safety and Standards (Food Products Standards and Food
+Additives) Regulations, 2011, namely:-
+“Gluten Free”
+
+In case any gluten free product is manufactured in a plant where gluten containing products are also
+manufactured this shall be declared on the label as “Processed in a plant where gluten containing products are
+manufactured” 
+
+
+“2.6 Labelling of various types of bread
+
+1. Whole Wheat Bread: Whole wheat flour (Atta) should be at least 75% of the flour.
+2. Wheat Bread or Brown Bread: Whole wheat flour (Atta) should be at least 50% of the flour.
+3. White Bread: Refined wheat flour (Maida).
+4. Multigrain Bread: Food grains permitted under FSS (Food Product Standards & Food Additives) Regulations, 2011; minimum 20% should be grains other than wheat*.
+5. Specialty Bread: Specialty ingredient that must be present in case a prefix is added to the term “bread” on the label.
+   a) Milk Bread: Milk solids should be 6%.
+   b) Honey Bread: Honey should be 5%.
+   c) Cheese Bread: Cheese should be 10%.
+   d) Oatmeal Bread: Oats should be 15%.
+   e) Cracked Wheat/Dhalia Bread: Cracked wheat/Dhalia should be 15%.
+   f) Bread with Wheat Germ: Wheat germ should be 2%.
+   g) Egg Bread: Edible whole egg solids should be 1.5%.
+   h) Fruit Bread or Loaf: Candied fruit should be 10%.
+   i) Triticale Bread: Triticale flour should be 20%.
+   j) Rye Bread: Rye flour should be 20%.
+   k) Raisin Bread: Raisins should be 10%.
+   l) Bran Bread: Edible bran should be 5%.
+   m) Protein Enriched Bread (Protein Prachur Bread): Edible protein should be 15%.
+   n) Bread such as Garlic Bread, Masala Bread, Oregano Bread, etc.: Garlic, oregano, etc. should be 2%.
+   o) Bread with Seeds such as Flax Seeds, Sesame Seeds, Pumpkin Seeds, etc.: Flax seeds, sesame seeds, pumpkin seeds, etc. should be 5%.
